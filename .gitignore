@@ -1,0 +1,32 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# --- Entornos Virtuales ---
+.venv/
+venv/
+env/
+ENV/
+bin/
+lib/
+
+# --- Bases de Datos Locales ---
+*.db
+*.sqlite3
+*.sqlite
+
+# --- Archivos Externos / Assets Pesados ---
+*.log
+.DS_Store
+Thumbs.db
+
+# --- Configuración de VS Code ---
+.vscode/
+
+# --- Variables de Entorno (Seguridad) ---
+.env
+
+# --- Entorno de pruebas ---
+test_enviroment.py
