@@ -30,8 +30,7 @@ class MyNewModel(pw.Model):
     Descripción breve del modelo
 
     Attributes:
-        id (AutoField): Clave primaria única. Se genera automáticamente para 
-                identificar cada cuenta en la base de datos.
+        id (AutoField): Clave primaria única. Identificador único autoincremental.
         name (CharField): Descripción del campo.
     """
 
@@ -75,7 +74,7 @@ En esta sección se definen los modelos actuales de **Myconta**.
 Representa una fuente de ingresos o entidad financiera (Ej. Efectivo, Tarjeta de Débito, Ahorros).  
 | Atributo | Tipo Peewee | Descripción |
 | :--- | :--- | :--- |
-| `id` | `AutoField` | Identificador único autoincremental |
+| `id` | `AutoField` | Identificador único autoincremental. |
 | `name` | `CharField` | Nombre de la cuenta (único). |
 | `balance` | `DecimalField` | Saldo disponible. |
 | `currency` | `CharField` | Código de moneda (Ej. 'MXN', 'USD'). |
