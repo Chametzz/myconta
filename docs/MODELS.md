@@ -106,3 +106,25 @@ Para mantener la integridad de los datos, las relaciones se gestionan de l sigui
 
 * **Account ↔ Transaction**: Una cuenta tiene muchas transacciones. Si se elimina una cuenta, sus transacciones se eliminan en cascada (`CASCADE`).
 * **Category ↔ Transaction**: Una categoría puede estar presente en muchas transacciones. Si se elimina una categoría, las transacciones quedan como "Sin categoría" (`SET NULL`).
+
+```mermaid
+erDiagram
+    ACCOUNT ||--o{ TRANSACTION : "tiene"
+    CATEGORY ||--o{ TRANSACTION : "clasifica"
+    
+    ACCOUNT {
+        int id
+        string name
+        decimal balance
+    }
+    CATEGORY {
+        int id
+        string name
+    }
+    TRANSACTION {
+        int id
+        decimal amount
+        string description
+        datetime date
+    }
+```
