@@ -25,6 +25,7 @@ class Navigator(tk.Frame):
     def __init__(self, master, **kwargs):
         super().__init__(master, **kwargs)
         self.stack = []
+        tk.Frame()
 
     def push(self, frame: tk.Frame):
         """
