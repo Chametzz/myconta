@@ -17,7 +17,7 @@ class Account(pw.Model):
     """
     id = pw.AutoField()
     name = pw.CharField()
-    balance = pw.DecimalField()
+    balance = pw.DecimalField(max_digits=20, decimal_places=2)
     currency = pw.CharField()
     
     class Meta:

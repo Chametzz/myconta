@@ -17,7 +17,7 @@ class Transaction(pw.Model):
 
     id = pw.AutoField()
     account = pw.ForeignKeyField(Account, backref="transactions", on_delete="CASCADE")
-    amount = pw.DecimalField()
+    amount = pw.DecimalField(max_digits=20, decimal_places=2)
     description = pw.CharField()
     date = pw.DateTimeField()
 
