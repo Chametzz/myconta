@@ -1,4 +1,4 @@
-# Capa de Modelos (Models)
+# Modelos
 Esta sección describe los modelos de datos ubicados en `models/`.
 
 ## ORM (Object-Relational Mapping o Mapeo Objeto-Relacional): Peewee

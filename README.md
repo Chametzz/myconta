@@ -21,7 +21,7 @@ MYCONTA/
 └── README.md               # Documentación del proyecto
 ```
 
-> [!TIP]
+> [!IMPORTANT]
 > **¿Eres nuevo en el proyecto?** Comienza revisando la **[Guía de Contribución](./docs/CONTRIBUTING.md)** para configurar tu entorno e instalar todas las dependencias necesarias.
 
 ## Contenido
