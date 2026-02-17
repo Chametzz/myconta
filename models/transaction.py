@@ -1,7 +1,7 @@
 import peewee as pw
 from services.database import db
 from models.account import Account
-from models.category import  category
+from models.category import  Category
 
 
 class Transaction(pw.Model):
@@ -21,13 +21,13 @@ class Transaction(pw.Model):
     amount = pw.DecimalField(max_digits=20, decimal_places=2)
     description = pw.CharField()
     date = pw.DateTimeField()
-
-    class Meta:
-        database = db
-       
-        category = pw.ForeignKeyField(
+     category = pw.ForeignKeyField(
         Category,
         backref='transactions',
         null=True,
         on_delete='SET NULL'
+
+    class Meta:
+        database = db
+
     )
