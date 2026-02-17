@@ -89,3 +89,58 @@ class Navigator(tk.Frame):
 
             if hasattr(previous_view, "on_enter"):
                 previous_view.on_enter()
+
+
+# EJEMPLO
+class _NavigatorPage(tk.Frame):
+    """
+    Clase de ejemplo para testear la navegación.
+    Muestra cómo usar grid dentro de una vista y cómo llamar al Navigator.
+    """
+    def __init__(self, master=None, *args, **kwargs):
+        super().__init__(master)
+        # Usamos **kwargs para recibir 'num' y cualquier config de tk.Frame
+        self.num = kwargs.get("num", 1)
+        
+        self.columnconfigure(0, weight=1)
+        self.columnconfigure(1, weight=1)
+        self.rowconfigure(0, weight=1)
+        self.rowconfigure(1, weight=1)
+
+        self.label = tk.Label(self, text=f"Página #{self.num}")
+        self.label.grid(row=0, column=0, columnspan=2, sticky="nsew", padx=5, pady=5)
+        self.previous_page = tk.Button(
+            self, text="<- Página anterior", command=self.change_to_previous_page
+        )
+        self.next_page = tk.Button(
+            self, text="Página siguiente ->", command=self.change_to_next_page
+        )
+
+        if self.num > 1:
+            self.previous_page.grid(row=1, column=0, sticky="ew", padx=5, pady=5)
+            self.next_page.grid(row=1, column=1, sticky="ew", padx=5, pady=5)
+        else:
+            self.next_page.grid(
+                row=1, column=0, columnspan=2, sticky="ew", padx=5, pady=5
+            )
+
+    def on_enter(self):
+        print(f"Entrando a la página #{self.num}")
+
+    def on_exit(self):
+        print(f"Saliendo de la página #{self.num}")
+
+    def change_to_previous_page(self):
+        self.master.pop()
+
+    def change_to_next_page(self):
+        self.master.push(_NavigatorPage, num=self.num + 1)
+
+
+if __name__ == "__main__":
+    root = tk.Tk()
+    root.title("Navigator")
+    root.geometry("400x300")
+    nav = Navigator(root, _NavigatorPage, num=1)
+    nav.pack(fill="both", expand=True)
+    root.mainloop()
