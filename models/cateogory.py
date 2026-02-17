@@ -1,10 +1,9 @@
 import peewee as pw
 from services.database import db
 
-
-class Categoria(pw.Model):
+class Category(pw.Model):
     """
-    Modelo Categoria
+    Modelo Category
 
     Representa una categoría utilizada para clasificar movimientos
     financieros y generar reportes estadísticos (por ejemplo: Comida,

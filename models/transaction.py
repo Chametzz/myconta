@@ -1,6 +1,7 @@
 import peewee as pw
 from services.database import db
 from models.account import Account
+from models.category import  category
 
 
 class Transaction(pw.Model):
@@ -23,3 +24,10 @@ class Transaction(pw.Model):
 
     class Meta:
         database = db
+       
+        category = pw.ForeignKeyField(
+        Category,
+        backref='transactions',
+        null=True,
+        on_delete='SET NULL'
+    )
