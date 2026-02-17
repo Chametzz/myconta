@@ -2,24 +2,33 @@
 Esta guía te ayudará a configurar tu entorno local y seguir el flujo de trabajo correcto con Git.
 
 ### Prepara el repositorio
+
 Sigue estos pasos en tu terminal para obtener el código y preparar tu espacio de trabajo:
+
+>[!IMPORTANT]
+>**Configura tus credenciales globales**  
+>Si apenas incias en git, empieza por configurar tus credenciales. Si no lo haces, Git no te dejará guardar tu progreso. Copia y pega estos dos comandos en tu terminal (sustituyendo el texto entre comillas con tus datos):
+>```
+>git config --global user.name "Tu Nombre"
+>git config --global user.email "tu-correo@ejemplo.com"
+>```
 
 1. **Clona el repositorio:**  
 ```bash 
 git clone https://github.com/Chametzz/myconta.git
 ```
 
-2. **Entra a la carpeta:**  
+1. **Entra a la carpeta:**  
 ```bash 
 cd myconta
 ```
 
-3. **Muévete a la rama de desarrollo:**  
+1. **Muévete a la rama de desarrollo:**  
 ```bash 
 git checkout develop
 ```
 
-4. **Crea tu rama de trabajo:**  
+1. **Crea tu rama de trabajo:**  
 ```bash 
 git checkout -b nombre-de-tu-rama
 ```
