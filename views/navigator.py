@@ -97,11 +97,12 @@ class _NavigatorPage(tk.Frame):
     Clase de ejemplo para testear la navegación.
     Muestra cómo usar grid dentro de una vista y cómo llamar al Navigator.
     """
+
     def __init__(self, master=None, *args, **kwargs):
         super().__init__(master)
         # Usamos **kwargs para recibir 'num' y cualquier config de tk.Frame
         self.num = kwargs.get("num", 1)
-        
+
         self.columnconfigure(0, weight=1)
         self.columnconfigure(1, weight=1)
         self.rowconfigure(0, weight=1)
@@ -141,6 +142,6 @@ if __name__ == "__main__":
     root = tk.Tk()
     root.title("Navigator")
     root.geometry("400x300")
-    nav = Navigator(root, _NavigatorPage, num=1)
+    nav = Navigator(root, _NavigatorPage, view_kwargs={"num": 1})
     nav.pack(fill="both", expand=True)
     root.mainloop()
