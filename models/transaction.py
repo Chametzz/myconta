@@ -1,6 +1,7 @@
 import peewee as pw
 from services.database import db
 from models.account import Account
+from models.category import Category
 
 
 class Transaction(pw.Model):
@@ -10,6 +11,7 @@ class Transaction(pw.Model):
     Attributes:
         id (AutoField): Identificador único autoincremental (Llave Primaria).
         account (ForeignKeyField): Referencia a la cuenta (Account) que realizó el movimiento.
+        category (ForeignKeyField): Referencia a una categoría (Category) que clasifica el movimiento.
         amount (DecimalField): Valor monetario de la operación.
         description (CharField): Breve resumen del movimiento.
         date (DateTimeField): Fecha y hora en la que se efectuó la operación.
@@ -17,6 +19,9 @@ class Transaction(pw.Model):
 
     id = pw.AutoField()
     account = pw.ForeignKeyField(Account, backref="transactions", on_delete="CASCADE")
+    category = pw.ForeignKeyField(
+        Category, backref="transactions", null=True, on_delete="SET NULL"
+    )
     amount = pw.DecimalField(max_digits=20, decimal_places=2)
     description = pw.CharField()
     date = pw.DateTimeField()
