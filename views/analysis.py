@@ -2,7 +2,7 @@ import tkinter as tk
 from tkinter import ttk
 from tkcalendar import DateEntry # Requiere: pip install tkcalendar
 
-class Bills(tk.Frame):
+class Analysis (tk.Frame):
     """ 
     Gestor analitico de los gastos,presupuestos y los gastos por categoria, mismo que incluye un calendario para una busqueda mas comoda 
     """
@@ -85,7 +85,7 @@ if __name__ == "__main__":
     root.geometry("550x700")
     root.configure(bg="white")
     
-    app = Bills(root)
+    app = Analysis(root)
     app.pack(fill="both", expand=True)
     
     root.mainloop()
