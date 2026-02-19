@@ -3,7 +3,7 @@ El módulo `services/database.py` centraliza la conexión con el motor de base d
 Actualmente, implementa **SQLite** como motor de base de datos y centraliza la lógica de inicialización del esquema mediante la creación automática de tablas.
 
 # Registro de [Modelos](MODELS.md)
-Cuadno crees un archivo en `models/`, debes actualizar `initialize_db()` siguiendo estos pasos:
+Cuando crees un archivo en `models/`, debes actualizar `initialize_db()` siguiendo estos pasos:
 1. Importa la clase dentro de la función (no al principio del archivo).
 2. Registro en la Lista: Añade la clase a la lista de `create_tables`.
 
