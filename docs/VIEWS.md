@@ -325,7 +325,7 @@ graph LR
     Settings[Ajustes]
     CategoryHub[Centro de categorías]
     CategoryEditor[Editor de categorías]
-    AccountDashboard[Panel de control de cuentas]
+    AccountDashboard[Panel de control de la cuenta]
     AccountHome[Inicio de la cuenta]
     AccountIncome[Ingresos de la cuenta]
     AccountExpenses[Gastos de la cuenta]
