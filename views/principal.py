@@ -11,6 +11,65 @@ try:
 except ModuleNotFoundError:
     from analysis import Analysis
 
+import tkinter as tk
+
+class GestorPerfiles(tk.Tk):
+    def __init__(self):
+        super().__init__()
+        self.title("MyConta - Seleccionar Perfil")
+        self.geometry("800x500")
+        self.configure(bg="black") # Estilo oscuro tipo Netflix
+
+        # Contenedor principal que se centra
+        self.main_frame = tk.Frame(self, bg="black")
+        self.main_frame.pack(expand=True)
+
+        self.titulo = tk.Label(
+            self.main_frame, 
+            text="¿Quién está usando MyConta?", 
+            fg="white", bg="black", 
+            font=("Arial", 24)
+        )
+        self.titulo.pack(pady=40)
+
+        # Frame para los cuadraditos
+        self.grid_perfiles = tk.Frame(self.main_frame, bg="black")
+        self.grid_perfiles.pack()
+
+        # Datos de ejemplo
+        perfiles = ["Personal", "Negocio", "Ahorros", "Hijos"]
+        
+        for i, nombre in enumerate(perfiles):
+            self.crear_perfil(nombre, i)
+
+    def crear_perfil(self, nombre, columna):
+        # Cada perfil es un frame con un botón y un texto
+        frame_item = tk.Frame(self.grid_perfiles, bg="black", padx=15)
+        frame_item.grid(row=0, column=columna)
+
+        # El "Cuadradito" (representado por un botón)
+        btn = tk.Button(
+            frame_item, 
+            width=15, height=7, 
+            bg="#333333", # Gris oscuro
+            activebackground="#666666", 
+            relief="flat",
+            command=lambda: print(f"Cargando {nombre}...")
+        )
+        btn.pack()
+
+        # Etiqueta del nombre
+        lbl = tk.Label(
+            frame_item, 
+            text=nombre, 
+            fg="gray", bg="black", 
+            font=("Arial", 12)
+        )
+        lbl.pack(pady=10)
+
+        # Efecto visual simple al pasar el mouse
+        btn.bind("<Enter>", lambda e, l=lbl: l.config(fg="white"))
+        btn.bind("<Leave>", lambda e, l=lbl: l.config(fg="gray"))
 
 class Principal(tk.Frame):
     """

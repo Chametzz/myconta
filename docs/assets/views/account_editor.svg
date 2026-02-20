@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1024"
+   height="768"
+   viewBox="0 0 270.93333 203.2"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
+   sodipodi:docname="account_editor.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#999999"
+     borderopacity="1"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     showgrid="true"
+     showguides="true"
+     inkscape:zoom="0.50835204"
+     inkscape:cx="1115.3688"
+     inkscape:cy="600.96149"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1">
+    <inkscape:grid
+       id="grid1"
+       units="px"
+       originx="0"
+       originy="0"
+       spacingx="2.1166667"
+       spacingy="2.1166667"
+       empcolor="#0099e5"
+       empopacity="0.30196078"
+       color="#0099e5"
+       opacity="0.14901961"
+       empspacing="8"
+       enabled="true"
+       visible="true" />
+    <sodipodi:guide
+       position="-4.2333336,203.2"
+       orientation="0,-1"
+       id="guide6"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#ffffff;stroke-width:2.11667;stroke-linecap:round;stroke-linejoin:round"
+       id="rect1"
+       width="270.93335"
+       height="203.20001"
+       x="0"
+       y="-1.25e-06"
+       rx="1.7942708e-05" />
+    <rect
+       style="fill:#ffffff;stroke:none;stroke-width:2.11667;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+       id="rect8"
+       width="270.93335"
+       height="203.20001"
+       x="0"
+       y="0" />
+    <rect
+       style="fill:#999999;stroke-width:2.11667;stroke-linecap:round;stroke-linejoin:round"
+       id="rect2"
+       width="270.93335"
+       height="16.933334"
+       x="8.3333384e-07"
+       y="-1.0416667e-07" />
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-weight:bold;font-size:12.7px;line-height:12.7px;font-family:Arial;-inkscape-font-specification:'Arial Bold Italic';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#999999;stroke-width:2.11667;stroke-linecap:round;stroke-linejoin:round"
+       x="77.03096"
+       y="13.012126"
+       id="text2"><tspan
+         sodipodi:role="line"
+         id="tspan2"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.7px;line-height:12.7px;font-family:Arial;-inkscape-font-specification:'Arial Bold';fill:#ffffff;stroke-width:2.11667"
+         x="77.03096"
+         y="13.012126">Crear/Editar cuenta</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:2.11666993;stroke-linecap:round;stroke-dasharray:none;stroke-linejoin:round"
+       d="M 14.816668,8.4666671 H 2.1166668"
+       id="path1" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:2.11667;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+       d="M 6.3500004,12.700001 2.1166668,8.4666671 6.3500004,4.2333335"
+       id="path2" />
+    <g
+       id="g6">
+      <text
+         xml:space="preserve"
+         style="font-style:italic;font-weight:bold;font-size:8.46667px;line-height:8.46666px;font-family:Arial;-inkscape-font-specification:'Arial Bold Italic';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#999999;stroke-width:2.11667;stroke-linecap:round;stroke-linejoin:round"
+         x="22.878197"
+         y="31.460615"
+         id="text3"><tspan
+           sodipodi:role="line"
+           id="tspan3"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;line-height:8.46666px;font-family:Arial;-inkscape-font-specification:Arial;fill:#000000;stroke-width:2.11667"
+           x="22.878197"
+           y="31.460615">Nombre</tspan></text>
+      <rect
+         style="fill:#ffffff;stroke:#000000;stroke-width:2.11667;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+         id="rect4"
+         width="127.00001"
+         height="8.4666672"
+         x="8.4666672"
+         y="33.866669"
+         rx="0"
+         ry="0" />
+    </g>
+    <g
+       id="g7">
+      <text
+         xml:space="preserve"
+         style="font-style:italic;font-weight:bold;font-size:8.46667px;line-height:8.46666px;font-family:Arial;-inkscape-font-specification:'Arial Bold Italic';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#999999;stroke-width:2.11667;stroke-linecap:round;stroke-linejoin:round"
+         x="19.339394"
+         y="52.627285"
+         id="text4"><tspan
+           sodipodi:role="line"
+           id="tspan4"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;line-height:8.46666px;font-family:Arial;-inkscape-font-specification:Arial;fill:#000000;stroke-width:2.11667"
+           x="19.339394"
+           y="52.627285">Divisa</tspan></text>
+      <rect
+         style="fill:#ffffff;stroke:#000000;stroke-width:2.11667;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+         id="rect5"
+         width="127.00001"
+         height="8.4666672"
+         x="8.4666672"
+         y="55.033337"
+         rx="0"
+         ry="0" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:2.11667;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+         d="m 132.29167,58.208335 -2.11667,2.116666 -2.11666,-2.116666"
+         id="path5" />
+    </g>
+    <g
+       id="g8">
+      <rect
+         style="fill:#000000;stroke:#000000;stroke-width:2.11667;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+         id="rect6"
+         width="35.983337"
+         height="10.583333"
+         x="8.4666672"
+         y="68.791672"
+         rx="4.2333331"
+         ry="4.2333331" />
+      <text
+         xml:space="preserve"
+         style="font-style:italic;font-weight:bold;font-size:8.46667px;line-height:8.46666px;font-family:Arial;-inkscape-font-specification:'Arial Bold Italic';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;stroke:none;stroke-width:2.11667;stroke-linecap:round;stroke-linejoin:round"
+         x="26.175148"
+         y="77.113647"
+         id="text3-5"><tspan
+           sodipodi:role="line"
+           id="tspan3-1"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;line-height:8.46666px;font-family:Arial;-inkscape-font-specification:Arial;fill:#ffffff;stroke:none;stroke-width:2.11667"
+           x="26.175148"
+           y="77.113647">Guardar</tspan></text>
+    </g>
+  </g>
+</svg>

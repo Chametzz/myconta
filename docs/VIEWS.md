@@ -25,6 +25,8 @@ Las vistas en el proyecto hace referencia a los `tk.Frame` que contiene tkinter
 
 ## Vista 1. Pantalla Principal (Dashboard/Home)
 
+![Principal](assets/views/principal.svg)
+
 **-Objetivo:** Mostrar un resumen rápido de los ingresos, gastos y ahorros del mes actual o cualquier fecha que el usuario desea consultar, permitiendo la navegación hacia las demás funciones.
 
 **-Contexto:** Esta vista se alimenta de la base de datos de transacciones del usuario.
@@ -272,6 +274,8 @@ Componente: Ítem de lista con flecha de navegación >. (Se recomienda que el pr
 
 ## Vista 7. Análisis de mis Finanzas
 
+![Análisis](assets/views/analysis.svg)
+
 **-Objetivo:** Proporcionar al usuario una visión visual y comparativa de sus movimientos financieros para facilitar la toma de decisiones.
 
 Origen: Se accede presionando el icono de "Gráfica" (ahora Análisis) en la barra de navegación inferior.
@@ -312,3 +316,18 @@ Comportamiento: Al presionar, la app debe generar un reporte resumen de los dato
 Formato de salida: El archivo debe exportarse y guardarse automáticamente en el dispositivo como un documento PDF.
 
 ## Vista 8. Gastos (Expense view)
+
+```
+graph LR
+    %% Pantalla inicial
+    Login[Portal de Perfiles] -- Selección --> Home[Dashboard de Cuenta]
+
+    %% Ramificaciones principales
+    Home -- "+" --> Add[Formulario de Registro]
+    Home -- "⚙" --> Config[Ajustes de Cuenta]
+    Home -- "Lista" --> Cats[Gestor de Categorías]
+
+    %% Vistas secundarias
+    Cats -- "Editar" --> EditCat[Modal Categoría]
+    Config -- "Moneda" --> Currency[Selector de Divisa]
+```

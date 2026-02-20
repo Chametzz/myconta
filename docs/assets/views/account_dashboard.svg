@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1024"
+   height="768"
+   viewBox="0 0 1024 768"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
+   sodipodi:docname="account_dashboard.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#999999"
+     borderopacity="1"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     showgrid="true"
+     inkscape:zoom="0.50835204"
+     inkscape:cx="723.90779"
+     inkscape:cy="587.19151"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g7"
+     showguides="false">
+    <inkscape:grid
+       id="grid1"
+       units="px"
+       originx="0"
+       originy="0"
+       spacingx="8"
+       spacingy="8"
+       empcolor="#0099e5"
+       empopacity="0.30196078"
+       color="#0099e5"
+       opacity="0.14901961"
+       empspacing="8"
+       enabled="true"
+       visible="true" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Principal"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:7.2111;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="rect20"
+       width="832"
+       height="768"
+       x="192"
+       y="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:48px;line-height:48px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#808080;stroke-width:8;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="608"
+       y="394.69922"
+       id="text19"><tspan
+         sodipodi:role="line"
+         id="tspan19"
+         x="608"
+         y="394.69922"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:48px;line-height:48px;font-family:Consolas;-inkscape-font-specification:Consolas;fill:#cccccc;stroke:none;stroke-opacity:1">Cuerpo</tspan></text>
+    <rect
+       style="fill:#999999;stroke-width:8.00001;stroke-linecap:round;stroke-linejoin:round"
+       id="rect2"
+       width="192"
+       height="768"
+       x="0"
+       y="0" />
+    <g
+       id="g16"
+       transform="translate(-23.804955,-519.80493)">
+      <rect
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:7.60991;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1"
+         width="172.67952"
+         height="64.390099"
+         x="31.804955"
+         y="671.80493" />
+      <text
+         xml:space="preserve"
+         style="font-stretch:condensed;font-size:28px;line-height:28px;font-family:Impact;-inkscape-font-specification:'Impact Condensed';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;stroke:#000000;stroke-width:8;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+         x="117.35858"
+         y="713.85742"
+         id="text1"><tspan
+           sodipodi:role="line"
+           x="117.35858"
+           y="713.85742"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:28px;line-height:28px;font-family:Arial;-inkscape-font-specification:Arial;fill:#ffffff;fill-opacity:1;stroke:none"
+           id="tspan21">Inicio</tspan></text>
+    </g>
+    <g
+       id="g17"
+       transform="translate(-233.35735,-439.80493)">
+      <rect
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:7.60991;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-8"
+         width="172.67952"
+         height="64.390099"
+         x="241.35735"
+         y="671.80493" />
+      <text
+         xml:space="preserve"
+         style="font-stretch:condensed;font-size:28px;line-height:28px;font-family:Impact;-inkscape-font-specification:'Impact Condensed';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;stroke:#000000;stroke-width:8;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+         x="326.93149"
+         y="711.0752"
+         id="text2"><tspan
+           sodipodi:role="line"
+           x="326.93149"
+           y="711.0752"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:28px;line-height:28px;font-family:Arial;-inkscape-font-specification:Arial;fill:#ffffff;fill-opacity:1;stroke:none"
+           id="tspan8">Ingresos</tspan></text>
+    </g>
+    <g
+       id="g18"
+       transform="translate(-442.90973,-359.99997)">
+      <rect
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:7.60991;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-8-1"
+         width="172.67952"
+         height="64.390099"
+         x="450.90973"
+         y="671.80493" />
+      <text
+         xml:space="preserve"
+         style="font-stretch:condensed;font-size:28px;line-height:28px;font-family:Impact;-inkscape-font-specification:'Impact Condensed';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;stroke:#000000;stroke-width:8;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+         x="537.04443"
+         y="714.02148"
+         id="text3"><tspan
+           sodipodi:role="line"
+           id="tspan3"
+           x="537.04443"
+           y="714.02148"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:28px;line-height:28px;font-family:Arial;-inkscape-font-specification:Arial;fill:#ffffff;fill-opacity:1;stroke:none">Gastos</tspan></text>
+    </g>
+    <g
+       id="g19"
+       transform="translate(-652.46216,-279.80493)">
+      <rect
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:7.60991;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-8-1-2"
+         width="172.67952"
+         height="64.390099"
+         x="660.46216"
+         y="671.80493" />
+      <text
+         xml:space="preserve"
+         style="font-stretch:condensed;font-size:28px;line-height:28px;font-family:Impact;-inkscape-font-specification:'Impact Condensed';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;stroke:#000000;stroke-width:8;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+         x="747.36249"
+         y="713.91211"
+         id="text4"><tspan
+           sodipodi:role="line"
+           x="747.36249"
+           y="713.91211"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:28px;line-height:28px;font-family:Arial;-inkscape-font-specification:Arial;fill:#ffffff;fill-opacity:1;stroke:none"
+           id="tspan9">Análisis</tspan></text>
+    </g>
+    <g
+       id="g15"
+       transform="translate(-1005.1155,-199.80493)">
+      <rect
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:7.60991;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1-8-1-2-6"
+         width="172.67952"
+         height="64.390099"
+         x="1013.1155"
+         y="671.80493" />
+      <text
+         xml:space="preserve"
+         style="font-stretch:condensed;font-size:28px;line-height:28px;font-family:Impact;-inkscape-font-specification:'Impact Condensed';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;stroke:#000000;stroke-width:8;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+         x="1099.0109"
+         y="713.85742"
+         id="text6"><tspan
+           sodipodi:role="line"
+           id="tspan6"
+           x="1099.0109"
+           y="713.85742"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:28px;line-height:28px;font-family:Arial;-inkscape-font-specification:Arial;fill:#ffffff;fill-opacity:1;stroke:none">Mi cuenta</tspan></text>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:48px;line-height:48px;font-family:Consolas;-inkscape-font-specification:Consolas;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;white-space:pre;inline-size:208;fill:#cccccc;stroke-width:8.00001;stroke-linecap:round;stroke-linejoin:round"
+       x="40"
+       y="64"
+       id="text5"
+       transform="translate(-33.96875,-21.640625)"><tspan
+         x="40"
+         y="64"
+         id="tspan2"><tspan
+           style="font-weight:bold;font-family:Arial;-inkscape-font-specification:'Arial Bold';fill:#ffffff"
+           id="tspan1">Nombre </tspan></tspan><tspan
+         x="40"
+         y="113.58777"
+         id="tspan10"><tspan
+           style="font-weight:bold;font-family:Arial;-inkscape-font-specification:'Arial Bold';fill:#ffffff"
+           id="tspan4">de la </tspan></tspan><tspan
+         x="40"
+         y="163.17555"
+         id="tspan12"><tspan
+           style="font-weight:bold;font-family:Arial;-inkscape-font-specification:'Arial Bold';fill:#ffffff"
+           id="tspan11">cuenta</tspan></tspan></text>
+    <g
+       id="g7"
+       transform="translate(-1005.1155,-119.80493)">
+      <rect
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:7.60991;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect5"
+         width="172.67952"
+         height="64.390099"
+         x="1013.1155"
+         y="671.80493" />
+      <text
+         xml:space="preserve"
+         style="font-stretch:condensed;font-size:28px;line-height:28px;font-family:Impact;-inkscape-font-specification:'Impact Condensed';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;stroke:#000000;stroke-width:8;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+         x="1077.0109"
+         y="713.85742"
+         id="text7"><tspan
+           sodipodi:role="line"
+           id="tspan7"
+           x="1077.0109"
+           y="713.85742"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:28px;line-height:28px;font-family:Arial;-inkscape-font-specification:Arial;fill:#ffffff;fill-opacity:1;stroke:none">Regresar</tspan></text>
+      <path
+         style="fill:none;stroke:#ffffff;stroke-width:8.00001;stroke-linecap:round;stroke-linejoin:round"
+         d="m 1177.1155,695.80493 -8,8.19504 8,7.80496"
+         id="path7"
+         sodipodi:nodetypes="ccc" />
+    </g>
+  </g>
+</svg>

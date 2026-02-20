@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1024"
+   height="768"
+   viewBox="0 0 270.93333 203.2"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
+   sodipodi:docname="account_hub.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#999999"
+     borderopacity="1"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     showgrid="true"
+     inkscape:zoom="0.50835204"
+     inkscape:cx="577.3558"
+     inkscape:cy="50.162088"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1">
+    <inkscape:grid
+       id="grid1"
+       units="px"
+       originx="0"
+       originy="0"
+       spacingx="2.1166667"
+       spacingy="2.1166667"
+       empcolor="#0099e5"
+       empopacity="0.30196078"
+       color="#0099e5"
+       opacity="0.14901961"
+       empspacing="8"
+       enabled="true"
+       visible="true" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#ffffff;stroke:none;stroke-width:2.11667;stroke-linecap:round;stroke-linejoin:round"
+       id="rect1"
+       width="270.93335"
+       height="203.20001"
+       x="0"
+       y="0" />
+    <rect
+       style="fill:#999999;stroke-width:2.11667;stroke-linecap:round;stroke-linejoin:round"
+       id="rect2"
+       width="270.93335"
+       height="16.933334"
+       x="0"
+       y="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-weight:bold;font-size:12.7px;line-height:12.7px;font-family:Arial;-inkscape-font-specification:'Arial Bold Italic';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#999999;stroke-width:2.11667;stroke-linecap:round;stroke-linejoin:round"
+       x="53.768295"
+       y="11.675774"
+       id="text2"><tspan
+         sodipodi:role="line"
+         id="tspan2"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.7px;line-height:12.7px;font-family:Arial;-inkscape-font-specification:'Arial Bold';fill:#ffffff;stroke-width:2.11667"
+         x="53.768295"
+         y="11.675774">Elige una cuenta</tspan></text>
+    <rect
+       style="fill:#000000;stroke:#000000;stroke-width:2.11667;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+       id="rect4"
+       width="33.866669"
+       height="33.866669"
+       x="16.933334"
+       y="93.133339"
+       ry="4.2333331"
+       rx="4.2333331" />
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-weight:bold;font-size:8.46667px;line-height:8.46666px;font-family:Arial;-inkscape-font-specification:'Arial Bold Italic';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#999999;stroke-width:2.11667;stroke-linecap:round;stroke-linejoin:round"
+       x="33.835663"
+       y="113.09698"
+       id="text7"><tspan
+         sodipodi:role="line"
+         id="tspan7"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;line-height:8.46666px;font-family:Arial;-inkscape-font-specification:Arial;fill:#ffffff;stroke-width:2.11667"
+         x="33.835663"
+         y="113.09698">Cuenta</tspan></text>
+    <g
+       id="g30">
+      <circle
+         style="fill:#000000;stroke:#000000;stroke-width:2.11667;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+         id="path17"
+         cx="245.53334"
+         cy="8.4666672"
+         r="6.3500004" />
+      <ellipse
+         style="fill:none;stroke:#ffffff;stroke-width:2.11667;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+         id="path18"
+         cx="245.53334"
+         cy="8.4666672"
+         rx="3.1749904"
+         ry="3.1750007" />
+      <g
+         id="g22"
+         transform="translate(0,8.4666666)">
+        <path
+           style="fill:none;stroke:#ffffff;stroke-width:2.11667;stroke-linecap:square;stroke-linejoin:round;stroke-dasharray:none"
+           d="m 245.53335,4.233334 -1e-5,-1.0583324"
+           id="path19"
+           sodipodi:nodetypes="cc" />
+        <path
+           style="fill:none;stroke:#ffffff;stroke-width:2.11667;stroke-linecap:square;stroke-linejoin:round;stroke-dasharray:none"
+           d="m 245.53334,-3.1749997 1e-5,-1.0583334"
+           id="path20"
+           sodipodi:nodetypes="cc" />
+        <path
+           style="fill:none;stroke:#ffffff;stroke-width:2.11667;stroke-linecap:square;stroke-linejoin:round;stroke-dasharray:none"
+           d="m 248.70833,9.6930535e-7 1.05835,-4.8013869e-7"
+           id="path21"
+           sodipodi:nodetypes="cc" />
+        <path
+           style="fill:none;stroke:#ffffff;stroke-width:2.11667;stroke-linecap:square;stroke-linejoin:round;stroke-dasharray:none"
+           d="M 242.35835,9.6930535e-7 241.30002,4.8916666e-7"
+           id="path22"
+           sodipodi:nodetypes="cc" />
+      </g>
+      <g
+         id="g29"
+         transform="rotate(45,235.31318,4.2333338)">
+        <path
+           style="fill:none;stroke:#ffffff;stroke-width:2.11667;stroke-linecap:square;stroke-linejoin:miter;stroke-dasharray:none"
+           d="m 245.53335,4.233334 -1e-5,-1.0583324"
+           id="path26"
+           sodipodi:nodetypes="cc" />
+        <path
+           style="fill:none;stroke:#ffffff;stroke-width:2.11667;stroke-linecap:square;stroke-linejoin:miter;stroke-dasharray:none"
+           d="m 245.53334,-3.1749997 1e-5,-1.0583334"
+           id="path27"
+           sodipodi:nodetypes="cc" />
+        <path
+           style="fill:none;stroke:#ffffff;stroke-width:2.11667;stroke-linecap:square;stroke-linejoin:miter;stroke-dasharray:none"
+           d="m 248.70833,9.6930535e-7 1.05835,-4.8013869e-7"
+           id="path28"
+           sodipodi:nodetypes="cc" />
+        <path
+           style="fill:none;stroke:#ffffff;stroke-width:2.11667;stroke-linecap:square;stroke-linejoin:miter;stroke-dasharray:none"
+           d="M 242.35835,9.6930535e-7 241.30002,4.8916666e-7"
+           id="path29"
+           sodipodi:nodetypes="cc" />
+      </g>
+    </g>
+    <g
+       id="g11"
+       transform="translate(67.733337,8.4666666)">
+      <rect
+         style="fill:#000000;stroke:#000000;stroke-width:2.11667;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+         id="rect11"
+         width="33.866669"
+         height="33.866669"
+         x="16.933334"
+         y="84.666672"
+         ry="4.2333331"
+         rx="4.2333331" />
+      <text
+         xml:space="preserve"
+         style="font-style:italic;font-weight:bold;font-size:8.46667px;line-height:8.46666px;font-family:Arial;-inkscape-font-specification:'Arial Bold Italic';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#999999;stroke-width:2.11667;stroke-linecap:round;stroke-linejoin:round"
+         x="33.835663"
+         y="104.63031"
+         id="text11"><tspan
+           sodipodi:role="line"
+           id="tspan11"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;line-height:8.46666px;font-family:Arial;-inkscape-font-specification:Arial;fill:#ffffff;stroke-width:2.11667"
+           x="33.835663"
+           y="104.63031">Cuenta</tspan></text>
+    </g>
+    <g
+       id="g12"
+       transform="translate(203.20001,8.4666666)">
+      <rect
+         style="fill:#000000;stroke:#000000;stroke-width:2.11667;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+         id="rect12"
+         width="33.866669"
+         height="33.866669"
+         x="16.933334"
+         y="84.666672"
+         ry="4.2333331"
+         rx="4.2333331" />
+      <text
+         xml:space="preserve"
+         style="font-style:italic;font-weight:bold;font-size:8.46667px;line-height:8.46666px;font-family:Arial;-inkscape-font-specification:'Arial Bold Italic';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#999999;stroke-width:2.11667;stroke-linecap:round;stroke-linejoin:round"
+         x="33.835663"
+         y="104.63031"
+         id="text12"><tspan
+           sodipodi:role="line"
+           id="tspan12"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;line-height:8.46666px;font-family:Arial;-inkscape-font-specification:Arial;fill:#ffffff;stroke-width:2.11667"
+           x="33.835663"
+           y="104.63031">Cuenta</tspan></text>
+    </g>
+    <g
+       id="g14"
+       transform="translate(135.46667,8.4666666)">
+      <rect
+         style="fill:#000000;stroke:#000000;stroke-width:2.11667;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+         id="rect14"
+         width="33.866669"
+         height="33.866669"
+         x="16.933334"
+         y="84.666672"
+         ry="4.2333331"
+         rx="4.2333331" />
+      <text
+         xml:space="preserve"
+         style="font-style:italic;font-weight:bold;font-size:8.46667px;line-height:8.46666px;font-family:Arial;-inkscape-font-specification:'Arial Bold Italic';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#999999;stroke-width:2.11667;stroke-linecap:round;stroke-linejoin:round"
+         x="33.835663"
+         y="104.63031"
+         id="text14"><tspan
+           sodipodi:role="line"
+           id="tspan14"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;line-height:8.46666px;font-family:Arial;-inkscape-font-specification:Arial;fill:#ffffff;stroke-width:2.11667"
+           x="33.835663"
+           y="104.63031">Cuenta</tspan></text>
+    </g>
+    <g
+       id="g1">
+      <ellipse
+         style="fill:#000000;stroke:#000000;stroke-width:2.11667;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+         id="path14"
+         cx="262.46667"
+         cy="8.4666672"
+         rx="6.3499913"
+         ry="6.3500004" />
+      <path
+         style="fill:none;stroke:#ffffff;stroke-width:2.11667;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+         d="M 262.46668,12.700001 V 4.2333335"
+         id="path15" />
+      <path
+         style="fill:none;stroke:#ffffff;stroke-width:2.11667;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+         d="m 266.70002,8.4666671 h -8.46667"
+         id="path16" />
+    </g>
+  </g>
+</svg>

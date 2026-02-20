@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1024"
+   height="768"
+   viewBox="0 0 270.93333 203.2"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
+   sodipodi:docname="analysis.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#999999"
+     borderopacity="1"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="true"
+     inkscape:zoom="0.71891835"
+     inkscape:cx="299.06039"
+     inkscape:cy="511.18462"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1">
+    <inkscape:grid
+       id="grid1"
+       units="px"
+       originx="0"
+       originy="0"
+       spacingx="2.1166667"
+       spacingy="2.1166667"
+       empcolor="#0099e5"
+       empopacity="0.30196078"
+       color="#0099e5"
+       opacity="0.14901961"
+       empspacing="8"
+       enabled="true"
+       visible="true" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#ffffff;stroke:none;stroke-width:2.11667;stroke-linecap:round;stroke-linejoin:round"
+       id="rect1"
+       width="270.93335"
+       height="203.20001"
+       x="0"
+       y="0" />
+    <rect
+       style="fill:#999999;fill-opacity:1;stroke:#999999;stroke-width:2.11667;stroke-linecap:round;stroke-linejoin:round"
+       id="rect6"
+       width="254.00002"
+       height="152.40001"
+       x="8.4666672"
+       y="42.333336" />
+    <rect
+       style="fill:#666666;stroke:#666666;stroke-width:2.11667;stroke-linecap:round;stroke-linejoin:round"
+       id="rect3"
+       width="237.06668"
+       height="84.666672"
+       x="16.933334"
+       y="50.800003" />
+    <text
+       xml:space="preserve"
+       style="font-size:7.40833px;line-height:7.40833px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;stroke:none;stroke-width:2.11667;stroke-linecap:round;stroke-linejoin:round"
+       x="49.459743"
+       y="60.426804"
+       id="text1-2-0"><tspan
+         sodipodi:role="line"
+         id="tspan1-8-61"
+         style="fill:#ffffff;stroke-width:2.11667"
+         x="49.459743"
+         y="60.426804">Título del Gráfico</tspan></text>
+    <g
+       id="g4"
+       transform="translate(197.9084,2.1166671)">
+      <g
+         id="g5"
+         transform="translate(-4.2333856,11.641675)">
+        <rect
+           style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:2.11667;stroke-linecap:round;stroke-linejoin:round"
+           id="rect4"
+           width="35.983337"
+           height="8.4666672"
+           x="19.050001"
+           y="107.95" />
+        <text
+           xml:space="preserve"
+           style="font-size:7.40833px;line-height:7.40833px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;stroke:none;stroke-width:2.11667;stroke-linecap:round;stroke-linejoin:round"
+           x="36.705257"
+           y="114.05531"
+           id="text1-2-0-4"><tspan
+             sodipodi:role="line"
+             id="tspan1-8-61-4"
+             style="fill:#ffffff;stroke-width:2.11667"
+             x="36.705257"
+             y="114.05531">Descargar</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g6"
+       transform="translate(19.05)">
+      <rect
+         style="fill:#cccccc;fill-opacity:1;stroke:none;stroke-width:2.11667;stroke-linecap:round;stroke-linejoin:round"
+         id="rect5"
+         width="8.4666662"
+         height="33.866669"
+         x="93.133339"
+         y="84.666672" />
+      <rect
+         style="fill:#cccccc;fill-opacity:1;stroke:none;stroke-width:2.11667;stroke-linecap:round;stroke-linejoin:round"
+         id="rect5-1"
+         width="8.46667"
+         height="50.800003"
+         x="105.83334"
+         y="67.733337" />
+      <rect
+         style="fill:#cccccc;fill-opacity:1;stroke:none;stroke-width:2.11667;stroke-linecap:round;stroke-linejoin:round"
+         id="rect5-1-3"
+         width="8.4666729"
+         height="25.400002"
+         x="118.53334"
+         y="93.133339" />
+      <rect
+         style="fill:#cccccc;fill-opacity:1;stroke:none;stroke-width:2.11667;stroke-linecap:round;stroke-linejoin:round"
+         id="rect5-1-3-9"
+         width="8.4666729"
+         height="42.333336"
+         x="131.23334"
+         y="76.200005" />
+    </g>
+    <path
+       style="fill:none;fill-opacity:1;stroke:#cccccc;stroke-width:2.11667;stroke-linecap:round;stroke-linejoin:round"
+       d="m 266.70002,190.50001 -4.23334,4.23333 -4.23333,-4.23333"
+       id="path6" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#cccccc;stroke-width:2.11667;stroke-linecap:round;stroke-linejoin:round"
+       d="M 262.46668,194.73334 V 42.333335"
+       id="path7" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#cccccc;stroke-width:2.11667;stroke-linecap:round;stroke-linejoin:round"
+       d="m 258.23335,46.566669 4.23333,-4.233334 4.23334,4.233334"
+       id="path8" />
+    <g
+       id="g9"
+       transform="translate(14.816684,-6.3500001)">
+      <circle
+         style="fill:#cccccc;fill-opacity:1;stroke:#cccccc;stroke-width:2.11667;stroke-linecap:round;stroke-linejoin:round"
+         id="path9"
+         cx="107.95002"
+         cy="150.28334"
+         r="2.1166668" />
+      <circle
+         style="fill:#cccccc;fill-opacity:1;stroke:#cccccc;stroke-width:2.11667;stroke-linecap:round;stroke-linejoin:round"
+         id="path9-8"
+         cx="120.65001"
+         cy="150.28334"
+         r="2.1166668" />
+      <circle
+         style="fill:#cccccc;fill-opacity:1;stroke:#cccccc;stroke-width:2.11667;stroke-linecap:round;stroke-linejoin:round"
+         id="path9-8-3"
+         cx="133.34995"
+         cy="150.28334"
+         r="2.1166668" />
+    </g>
+    <path
+       style="fill:#808080;fill-opacity:1;stroke:#666666;stroke-width:2.11667;stroke-linecap:round;stroke-linejoin:round"
+       d="M 16.933334,152.40001 H 254.00002"
+       id="path11" />
+    <path
+       style="fill:#808080;fill-opacity:1;stroke:#666666;stroke-width:2.11667;stroke-linecap:round;stroke-linejoin:round"
+       d="M 16.933334,160.86673 H 254.00002"
+       id="path12" />
+    <path
+       style="fill:#808080;fill-opacity:1;stroke:#666666;stroke-width:2.11667;stroke-linecap:round;stroke-linejoin:round"
+       d="M 16.933334,169.33345 H 254.00002"
+       id="path13" />
+    <path
+       style="fill:#808080;fill-opacity:1;stroke:#666666;stroke-width:2.11667;stroke-linecap:round;stroke-linejoin:round"
+       d="M 16.933334,177.80017 H 254.00002"
+       id="path14" />
+    <path
+       style="fill:#808080;fill-opacity:1;stroke:#666666;stroke-width:2.11667;stroke-linecap:round;stroke-linejoin:round"
+       d="M 16.933334,186.26689 H 254.00002"
+       id="path15" />
+    <g
+       id="g18">
+      <g
+         id="g15">
+        <text
+           xml:space="preserve"
+           style="font-size:7.40833px;line-height:7.40833px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;stroke:none;stroke-width:2.11667;stroke-linecap:round;stroke-linejoin:round"
+           x="13.659371"
+           y="32.38097"
+           id="text1-2"><tspan
+             sodipodi:role="line"
+             id="tspan1-8"
+             style="fill:#000000;stroke-width:2.11667"
+             x="13.659371"
+             y="32.38097">De:</tspan></text>
+        <g
+           id="g2"
+           transform="translate(-80.433378)">
+          <rect
+             style="fill:#ffffff;stroke:#000000;stroke-width:2.11667;stroke-linecap:round;stroke-linejoin:round"
+             id="rect2"
+             width="67.73333"
+             height="8.4666672"
+             x="101.60001"
+             y="25.400002" />
+          <path
+             style="fill:#ffffff;stroke:#000000;stroke-width:2.11667;stroke-linecap:round;stroke-linejoin:round"
+             d="m 166.15844,29.104169 -2.11666,2.116666 -2.11667,-2.116666"
+             id="path2" />
+          <text
+             xml:space="preserve"
+             style="font-size:7.40833px;line-height:7.40833px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;stroke:none;stroke-width:2.11667;stroke-linecap:round;stroke-linejoin:round"
+             x="126.47085"
+             y="32.279167"
+             id="text1-2-8"><tspan
+               sodipodi:role="line"
+               id="tspan1-8-6"
+               style="fill:#000000;stroke-width:2.11667"
+               x="126.47085"
+               y="32.279167">DD/MM/AAAA</tspan></text>
+        </g>
+      </g>
+      <g
+         id="g17"
+         transform="translate(127.09898)">
+        <text
+           xml:space="preserve"
+           style="font-size:7.40833px;line-height:7.40833px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;stroke:none;stroke-width:2.11667;stroke-linecap:round;stroke-linejoin:round"
+           x="15.24687"
+           y="32.38097"
+           id="text15"><tspan
+             sodipodi:role="line"
+             id="tspan15"
+             style="fill:#000000;stroke-width:2.11667"
+             x="15.24687"
+             y="32.38097">A:</tspan></text>
+        <g
+           id="g16"
+           transform="translate(-80.433378)">
+          <rect
+             style="fill:#ffffff;stroke:#000000;stroke-width:2.11667;stroke-linecap:round;stroke-linejoin:round"
+             id="rect15"
+             width="67.73333"
+             height="8.4666672"
+             x="101.60001"
+             y="25.400002" />
+          <path
+             style="fill:#ffffff;stroke:#000000;stroke-width:2.11667;stroke-linecap:round;stroke-linejoin:round"
+             d="m 166.15844,29.104169 -2.11666,2.116666 -2.11667,-2.116666"
+             id="path16" />
+          <text
+             xml:space="preserve"
+             style="font-size:7.40833px;line-height:7.40833px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;stroke:none;stroke-width:2.11667;stroke-linecap:round;stroke-linejoin:round"
+             x="126.47085"
+             y="32.279167"
+             id="text16"><tspan
+               sodipodi:role="line"
+               id="tspan16"
+               style="fill:#000000;stroke-width:2.11667"
+               x="126.47085"
+               y="32.279167">DD/MM/AAAA</tspan></text>
+        </g>
+      </g>
+    </g>
+    <rect
+       style="fill:#999999;stroke-width:2.11667;stroke-linecap:round;stroke-linejoin:round"
+       id="rect2-2"
+       width="270.93335"
+       height="16.933334"
+       x="3.5740159e-06"
+       y="-3.1086245e-15" />
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-weight:bold;font-size:12.7px;line-height:12.7px;font-family:Arial;-inkscape-font-specification:'Arial Bold Italic';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#999999;stroke-width:2.11667;stroke-linecap:round;stroke-linejoin:round"
+       x="4.2333336"
+       y="13.015226"
+       id="text2"><tspan
+         sodipodi:role="line"
+         id="tspan2"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.7px;line-height:12.7px;font-family:Arial;-inkscape-font-specification:'Arial Bold';text-align:start;text-anchor:start;fill:#ffffff;stroke-width:2.11667"
+         x="4.2333336"
+         y="13.015226">Análisis de mis finanzas</tspan></text>
+  </g>
+</svg>

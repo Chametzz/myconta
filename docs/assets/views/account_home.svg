@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1024"
+   height="770"
+   viewBox="0 0 270.93331 203.72916"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
+   sodipodi:docname="account_home.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#999999"
+     borderopacity="1"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     showgrid="true"
+     inkscape:zoom="0.71891835"
+     inkscape:cx="293.49647"
+     inkscape:cy="420.77101"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1">
+    <inkscape:grid
+       id="grid1"
+       units="px"
+       originx="0"
+       originy="0"
+       spacingx="2.1166665"
+       spacingy="2.1166665"
+       empcolor="#0099e5"
+       empopacity="0.30196078"
+       color="#0099e5"
+       opacity="0.14901961"
+       empspacing="8"
+       enabled="true"
+       visible="true" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.49671;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+       id="rect3"
+       width="270.93332"
+       height="101.60001"
+       x="0"
+       y="101.59999" />
+    <text
+       xml:space="preserve"
+       style="font-size:7.40833px;line-height:7.40833px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;stroke:#808080;stroke-width:2.11667;stroke-linecap:round;stroke-linejoin:round"
+       x="136.34541"
+       y="19.337837"
+       id="text1"><tspan
+         sodipodi:role="line"
+         id="tspan1"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2.11667"
+         x="136.34541"
+         y="19.337837">Mes</tspan></text>
+    <path
+       style="fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:2.11667;stroke-linecap:round;stroke-linejoin:round"
+       d="m 77.210792,10.115144 -6.35,6.349999 6.35,6.35"
+       id="path1" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:2.11667;stroke-linecap:round;stroke-linejoin:round"
+       d="m 195.74412,10.115144 6.35,6.349999 -6.35,6.35"
+       id="path2" />
+    <text
+       xml:space="preserve"
+       style="font-size:7.40833px;line-height:7.40833px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;stroke:#808080;stroke-width:2.11667;stroke-linecap:round;stroke-linejoin:round"
+       x="32.830807"
+       y="77.269691"
+       id="text1-1"><tspan
+         sodipodi:role="line"
+         id="tspan1-8"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2.11667"
+         x="32.830807"
+         y="77.269691">Ingreso</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.40833px;line-height:7.40833px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;stroke:#808080;stroke-width:2.11667;stroke-linecap:round;stroke-linejoin:round"
+       x="30.172056"
+       y="86.224701"
+       id="text1-1-7"><tspan
+         sodipodi:role="line"
+         id="tspan1-8-42"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2.11667"
+         x="30.172056"
+         y="86.224701">$0.00</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.40833px;line-height:7.40833px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;stroke:#808080;stroke-width:2.11667;stroke-linecap:round;stroke-linejoin:round"
+       x="166.90117"
+       y="86.224701"
+       id="text1-1-7-1"><tspan
+         sodipodi:role="line"
+         id="tspan1-8-42-9"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2.11667"
+         x="166.90117"
+         y="86.224701">-$0.00</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.40833px;line-height:7.40833px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;stroke:#808080;stroke-width:2.11667;stroke-linecap:round;stroke-linejoin:round"
+       x="167.97372"
+       y="77.36013"
+       id="text1-1-3"><tspan
+         sodipodi:role="line"
+         id="tspan1-8-4"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2.11667"
+         x="167.97372"
+         y="77.36013">Gastos</tspan></text>
+    <rect
+       style="fill:#999999;stroke-width:2.73261;stroke-linecap:round;stroke-linejoin:round"
+       id="rect1"
+       width="270.93332"
+       height="101.59999"
+       x="0"
+       y="5.5511151e-17" />
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-weight:bold;font-size:12.7px;line-height:12.7px;font-family:Arial;-inkscape-font-specification:'Arial Bold Italic';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#999999;stroke-width:2.11667;stroke-linecap:round;stroke-linejoin:round"
+       x="6.0771484"
+       y="11.675774"
+       id="text2"><tspan
+         sodipodi:role="line"
+         id="tspan2"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.7px;line-height:12.7px;font-family:Arial;-inkscape-font-specification:'Arial Bold';text-align:start;text-anchor:start;fill:#ffffff;stroke-width:2.11667"
+         x="6.0771484"
+         y="11.675774">Tu saldo mensual es</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-weight:bold;font-size:12.7px;line-height:12.7px;font-family:Arial;-inkscape-font-specification:'Arial Bold Italic';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#999999;stroke-width:2.11667;stroke-linecap:round;stroke-linejoin:round"
+       x="107.0498"
+       y="29.633335"
+       id="text3-8"><tspan
+         sodipodi:role="line"
+         id="tspan3-2"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.7px;line-height:12.7px;font-family:Arial;-inkscape-font-specification:Arial;text-align:start;text-anchor:start;fill:#ffffff;stroke-width:2.11667"
+         x="107.0498"
+         y="29.633335">$0.00 DIV</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-weight:bold;font-size:12.7px;line-height:12.7px;font-family:Arial;-inkscape-font-specification:'Arial Bold Italic';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#999999;stroke-width:2.11667;stroke-linecap:round;stroke-linejoin:round"
+       x="135.32405"
+       y="46.566666"
+       id="text4"><tspan
+         sodipodi:role="line"
+         id="tspan4"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.7px;line-height:12.7px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:2.11667"
+         x="135.32405"
+         y="46.566666">Mes</tspan></text>
+    <path
+       style="fill:none;stroke:#ffffff;stroke-width:2.11667;stroke-linecap:round;stroke-linejoin:round"
+       d="m 21.166664,38.1 -4.23333,-4.233334 4.23333,-4.233333"
+       id="path4" />
+    <path
+       style="fill:none;stroke:#ffffff;stroke-width:2.11667;stroke-linecap:round;stroke-linejoin:round"
+       d="m 249.76668,38.1 4.23333,-4.233334 -4.23333,-4.233333"
+       id="path5" />
+    <rect
+       style="fill:#666666;stroke-width:2.11667;stroke-linecap:round;stroke-linejoin:round;stroke:#666666"
+       id="rect4"
+       width="118.53333"
+       height="33.866665"
+       x="8.4666662"
+       y="59.266663"
+       ry="4.2333322"
+       rx="4.2333364" />
+    <rect
+       style="fill:#666666;stroke:#666666;stroke-width:2.11667;stroke-linecap:round;stroke-linejoin:round"
+       id="rect5"
+       width="118.53333"
+       height="33.866665"
+       x="143.93333"
+       y="59.266663"
+       ry="4.2333322"
+       rx="4.2333364" />
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-weight:bold;font-size:12.7px;line-height:12.7px;font-family:Arial;-inkscape-font-specification:'Arial Bold Italic';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#999999;stroke-width:2.11667;stroke-linecap:round;stroke-linejoin:round"
+       x="35.870678"
+       y="72.590912"
+       id="text5"><tspan
+         sodipodi:role="line"
+         id="tspan5"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.7px;line-height:12.7px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:2.11667"
+         x="35.870678"
+         y="72.590912">Ingresos</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-weight:bold;font-size:12.7px;line-height:12.7px;font-family:Arial;-inkscape-font-specification:'Arial Bold Italic';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#999999;stroke-width:2.11667;stroke-linecap:round;stroke-linejoin:round"
+       x="167.60733"
+       y="72.745941"
+       id="text6"><tspan
+         sodipodi:role="line"
+         id="tspan6"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.7px;line-height:12.7px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:2.11667"
+         x="167.60733"
+         y="72.745941">Gastos</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-weight:bold;font-size:12.7px;line-height:12.7px;font-family:Arial;-inkscape-font-specification:'Arial Bold Italic';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#999999;stroke-width:2.11667;stroke-linecap:round;stroke-linejoin:round"
+       x="40.48745"
+       y="87.591545"
+       id="text7"><tspan
+         sodipodi:role="line"
+         id="tspan7"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.7px;line-height:12.7px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:2.11667"
+         x="40.48745"
+         y="87.591545">$0.00 DIV</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-weight:bold;font-size:12.7px;line-height:12.7px;font-family:Arial;-inkscape-font-specification:'Arial Bold Italic';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#999999;stroke-width:2.11667;stroke-linecap:round;stroke-linejoin:round"
+       x="147.76358"
+       y="87.591545"
+       id="text8"><tspan
+         sodipodi:role="line"
+         id="tspan8"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.7px;line-height:12.7px;font-family:Arial;-inkscape-font-specification:Arial;text-align:start;text-anchor:start;fill:#ffffff;stroke-width:2.11667"
+         x="147.76358"
+         y="87.591545">-$0.00 DIV</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-weight:bold;font-size:12.7px;line-height:12.7px;font-family:Arial;-inkscape-font-specification:'Arial Bold Italic';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#999999;stroke-width:2.11667;stroke-linecap:round;stroke-linejoin:round"
+       x="135.56277"
+       y="147.40599"
+       id="text9"><tspan
+         sodipodi:role="line"
+         id="tspan9"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.7px;line-height:12.7px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-anchor:middle;fill:#000000;stroke-width:2.11667"
+         x="135.56277"
+         y="147.40599">Tu saldo actual es</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-weight:bold;font-size:12.7px;line-height:12.7px;font-family:Arial;-inkscape-font-specification:'Arial Bold Italic';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#999999;stroke-width:2.11667;stroke-linecap:round;stroke-linejoin:round"
+       x="135.28993"
+       y="165.17648"
+       id="text10"><tspan
+         sodipodi:role="line"
+         id="tspan10"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.7px;line-height:12.7px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-anchor:middle;fill:#000000;stroke-width:2.11667"
+         x="135.28993"
+         y="165.17648">$0.00 DIV</tspan></text>
+  </g>
+</svg>
