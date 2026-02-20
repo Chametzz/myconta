@@ -317,17 +317,38 @@ Formato de salida: El archivo debe exportarse y guardarse automáticamente en el
 
 ## Vista 8. Gastos (Expense view)
 
-```
+## Flujo de vistas
+```mermaid
 graph LR
-    %% Pantalla inicial
-    Login[Portal de Perfiles] -- Selección --> Home[Dashboard de Cuenta]
+    AccountHub[Centro de cuentas]
+    AccountEditor[Editor de cuentas]
+    Settings[Ajustes]
+    CategoryHub[Centro de categorías]
+    CategoryEditor[Editor de categorías]
+    AccountDashboard[Panel de control de cuentas]
+    AccountHome[Inicio de la cuenta]
+    AccountIncome[Ingresos de la cuenta]
+    AccountExpenses[Gastos de la cuenta]
+    IncomeEditor[Editor de ingresos]
+    ExpenseEditor[Editor de gastos]
+    AccountAnalysis[Análisis de la cuenta]
+    MyAccount[Configuración de la cuenta]
+    
+    AccountHub --> AccountEditor
+    AccountHub --> AccountDashboard
+    AccountHub --> Settings
+    
+    AccountDashboard --> AccountHome
+    AccountDashboard --> AccountIncome
+    AccountDashboard --> AccountExpenses
+    AccountDashboard --> AccountAnalysis
+    AccountDashboard --> MyAccount
+    
+    Settings --> CategoryHub
+    CategoryHub --> CategoryEditor
 
-    %% Ramificaciones principales
-    Home -- "+" --> Add[Formulario de Registro]
-    Home -- "⚙" --> Config[Ajustes de Cuenta]
-    Home -- "Lista" --> Cats[Gestor de Categorías]
+    AccountIncome --> IncomeEditor
+    AccountExpenses --> ExpenseEditor
 
-    %% Vistas secundarias
-    Cats -- "Editar" --> EditCat[Modal Categoría]
-    Config -- "Moneda" --> Currency[Selector de Divisa]
+    MyAccount --> AccountEditor
 ```
