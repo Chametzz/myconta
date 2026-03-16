@@ -1,10 +1,11 @@
+from core.ui.view import View
 import tkinter as tk
 from tkinter import messagebox
 
-class SelectAccount(tk.Frame):
-    def __init__(self, master):
-        super().__init__(master, bg="#dcdcdc")
-
+class AccountHubView(View):
+    def __init__(self, master, view_model=None):
+        super().__init__(master, view_model)
+        
         self.create_topbar()
 
         self.accounts_frame = tk.Frame(self, bg="#dcdcdc")
@@ -79,7 +80,7 @@ if __name__ == "__main__":
     root = tk.Tk()
     root.geometry("1024x768")
 
-    app = SelectAccount(root)
+    app = AccountHubView(root)
     app.pack(fill="both", expand=True)
 
     root.mainloop()
