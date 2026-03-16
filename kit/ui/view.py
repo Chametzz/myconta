@@ -1,5 +1,5 @@
 from tkinter import Frame
-from core.view_model import ViewModel
+from kit.view_model import ViewModel
 from typing import Callable
 
 

@@ -1,5 +1,5 @@
 import tkinter as tk
-from core.ui.navigator import Navigator
+from kit.ui.navigator import Navigator
 from views.account_hub_view import AccountHubView
 
 

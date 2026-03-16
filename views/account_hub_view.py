@@ -1,4 +1,4 @@
-from core.ui.view import View
+from kit.ui.view import View
 import tkinter as tk
 from tkinter import messagebox
 
