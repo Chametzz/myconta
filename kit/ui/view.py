@@ -66,7 +66,7 @@ class View(Frame):
         def changed(arg):
             return not args or arg in args
 
-        self.on_render(changed)
+        self.on_update(changed)
 
     def on_update(self, changed: Callable[[str], bool]):
         """

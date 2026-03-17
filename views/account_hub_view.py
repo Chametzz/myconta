@@ -1,9 +1,12 @@
 from kit.ui.view import View
 from kit.color_scheme import color_schema
+from view_models.account_hub_view_model import AccountHubViewModel
 import tkinter as tk
 from tkinter import messagebox
+from kit.ui.navigator import Navigator
 
 class AccountHubView(View):
+    vm: AccountHubViewModel
     def __init__(self, master, view_model=None):
         super().__init__(master, view_model)
         
@@ -12,11 +15,14 @@ class AccountHubView(View):
         
         self.accounts_frame = tk.Frame(self, bg=color_schema.SURFACE)
         self.accounts_frame.pack(expand=True)
-
+        
         self.create_account("Cuenta 1", 0, 0)
         self.create_account("Cuenta 2", 0, 1)
         self.create_account("Cuenta 3", 0, 2)
         self.create_account("Cuenta 4", 0, 3)
+        
+        self.david = tk.Label(text="NO")
+        self.david.pack(expand=True)
 
     def create_topbar(self):
         frame = tk.Frame(self, bg=color_schema.SURFACE_CONTAINER)
@@ -75,10 +81,19 @@ class AccountHubView(View):
         messagebox.showinfo("Cuenta", f"Seleccionaste {text}")
 
     def add_account(self):
-        pass 
+        self.vm.david()
 
     def settings(self):
-        messagebox.showinfo("Configuración", "Abrir configuración")
+        from views.my_account import MyAccount
+        Navigator.of(self).push(MyAccount(self.master))
+        self.vm.llamada()
+
+    
+    def on_update(self, changed):
+        if changed('david'):
+            text = "Si" if self.vm.acuerdo else "No"
+            self.david.config(text=text)
+            pass
 
 if __name__ == "__main__":
     root = tk.Tk()
