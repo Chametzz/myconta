@@ -11,8 +11,9 @@ def initialize_db():
 
     from models.account import Account
     from models.transaction import Transaction
+    from models.category import Category
 
     if db.is_closed():
         db.connect()
         
-    db.create_tables([Account, Transaction], safe=True)
+    db.create_tables([Account, Transaction, Category], safe=True)
