@@ -69,3 +69,10 @@ class Navigator(Frame):
             # Notificar que vuelve a estar activa
             if hasattr(previous_view, 'on_enter'):
                 previous_view.on_enter()
+    
+    @classmethod
+    def of(cls, context : Frame) -> 'Navigator':
+        """
+        Obtiene el navegador del Frame dado
+        """
+        return context.master
