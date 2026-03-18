@@ -1,19 +1,19 @@
 from kit.ui.view import View
 from kit.color_schema import color_schema
-from view_models.account_hub_view_model import AccountHubViewModel
 import tkinter as tk
 from tkinter import messagebox
 
 class AccountHubView(View):
-    vm: AccountHubViewModel
+    
     def __init__(self, master, view_model=None):
         super().__init__(master, view_model)
+        
         self.config(bg=color_schema.SURFACE)
         self.create_topbar()
         
         self.accounts_frame = tk.Frame(self, bg=color_schema.SURFACE)
         self.accounts_frame.pack(expand=True)
-        
+
         self.create_account("Cuenta 1", 0, 0)
         self.create_account("Cuenta 2", 0, 1)
         self.create_account("Cuenta 3", 0, 2)
@@ -39,8 +39,7 @@ class AccountHubView(View):
             bg=color_schema.SURFACE_CONTAINER,
             font=("Arial", 24, "bold"),
             borderwidth=0,
-            activebackground=color_schema.SURFACE_CONTAINER_HIGHEST,
-            activeforeground=color_schema.ON_SURFACE,
+            activebackground=color_schema.SURFACE_CONTAINER_HIGH,
             command=self.add_account
         )
         boton_mas.pack(side="right", padx=10, pady=10)
@@ -52,8 +51,7 @@ class AccountHubView(View):
             bg=color_schema.SURFACE_CONTAINER,
             font=("Arial", 24),
             borderwidth=0,
-            activebackground=color_schema.SURFACE_CONTAINER_HIGHEST,
-            activeforeground=color_schema.ON_SURFACE,
+            activebackground=color_schema.SURFACE_CONTAINER_HIGH,
             command=self.settings
         )
         boton_settings.pack(side="right", pady=10)
@@ -65,7 +63,6 @@ class AccountHubView(View):
             bg=color_schema.PRIMARY_CONTAINER,
             fg=color_schema.ON_PRIMARY_CONTAINER,
             activebackground=color_schema.PRIMARY_FIXED_DIM,
-            activeforeground=color_schema.ON_PRIMARY_FIXED_VARIANT,
             width=12,
             height=6,
             font=("Arial", 12, "bold"),
@@ -79,14 +76,18 @@ class AccountHubView(View):
         messagebox.showinfo("Cuenta", f"Seleccionaste {text}")
 
     def add_account(self):
-        self.vm.david()
+        from kit.ui.navigator import Navigator
+        from views.account_editor_view import AccountEditorView
+        from view_models.account_editor_view_model import AccountEditorViewModel
+        Navigator.of(self).push(
+            AccountEditorView(
+                self.master,
+                view_model=AccountEditorViewModel()
+            )
+        )
 
     def settings(self):
-        pass
-
-    
-    def on_update(self, changed):
-       pass
+        messagebox.showinfo("Configuración", "Abrir configuración")
 
 if __name__ == "__main__":
     root = tk.Tk()
