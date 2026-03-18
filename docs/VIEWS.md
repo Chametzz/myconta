@@ -1,6 +1,31 @@
 # Views
 Esta sección describe las vistas  ubicadas en `views/`.
 
+# Estilo de las vistas
+Las vistas siguen un diseño similar y para mantener la armonía de las mismas todas siguen este mismo estilo. 
+>[!NOTE]
+>Para importar la paleta de colores de la aplicación puede hacerlo con `from kit.color_schema import color_schema`
+* **View**
+* `background=color_schema.SURFACE`
+  * **Appbar**
+  * `background=color_schema.SURFACE_CONTAINER`
+    * **Title**
+    * `font=('Arial', 16, 'bold')`
+    * `background=color_schema.SURFACE_CONTAINER`
+    * `foreground=color_schema.ON_SURFACE`
+    * **Actions**
+      * `font=('Arial', 24, 'bold')`
+      * `background=color_schema.SURFACE_CONTAINER`
+      * `foreground=color_schema.ON_SURFACE_VARIANT`
+      * `activebackground=color_schema.SURFACE_CONTAINER_HIGHEST`
+      * `activeforeground=color_schema.ON_SURFACE`
+  * **Button**
+  * `background=color_schema.PRIMARY_CONTAINER`
+  * `foreground=color_schema.ON_PRIMARY_CONTAINER`
+  * `activebackground=color_schema.PRIMARY_FIXED_DIM`
+  * `activeforeground=color_schema.ON_PRIMARY_FIXED_VARIANT`
+
+
 # Definición: ¿Qué es Tkinter?
 
 Tkinter (abreviatura de Tk interface) es el kit de herramientas de interfaz gráfica de usuario predeterminado de Python. Actúa como un "envoltorio" que permite a Python comunicarse con Tk, un sistema de ventanas que crea los elementos visuales que vemos en pantalla. Es la librería más utilizada para aplicaciones de escritorio sencillas debido a su ligereza y facilidad de uso.

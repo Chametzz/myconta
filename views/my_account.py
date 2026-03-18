@@ -1,5 +1,4 @@
 import tkinter as tk
-from tkinter import messagebox
 
 class MyAccount(tk.Frame):
     def __init__(self, master):
@@ -53,7 +52,9 @@ class MyAccount(tk.Frame):
         flecha.pack(side="right", padx=10)
         
     def action(self, text):
-        messagebox.showinfo("Opción", f"Seleccionaste: {text}") # muestra una ventanita con el mensaje 
+        from kit.ui.navigator import Navigator
+        Navigator.of(self).pop()
+        #messagebox.showinfo("Opción", f"Seleccionaste: {text}") # muestra una ventanita con el mensaje 
     
 #Test
 if __name__ == "__main__":
