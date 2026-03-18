@@ -3,25 +3,27 @@ Esta sección describe las vistas  ubicadas en `views/`.
 
 # Estilo de las vistas
 Las vistas siguen un diseño similar y para mantener la armonía de las mismas todas siguen este mismo estilo. 
+>[!NOTE]
+>Para importar la paleta de colores de la aplicación puede hacerlo con `from kit.color_schema import color_schema`
 * **View**
-* `background=SURFACE`
+* `background=color_schema.SURFACE`
   * **Appbar**
-  * `background=SURFACE_CONTAINER`
+  * `background=color_schema.SURFACE_CONTAINER`
     * **Title**
     * `font=('Arial', 16, 'bold')`
-    * `background=SURFACE_CONTAINER`
-    * `foreground=ON_SURFACE`
+    * `background=color_schema.SURFACE_CONTAINER`
+    * `foreground=color_schema.ON_SURFACE`
     * **Actions**
       * `font=('Arial', 24, 'bold')`
-      * `background=SURFACE_CONTAINER`
-      * `foreground=ON_SURFACE_VARIANT`
-      * `activebackground=SURFACE_CONTAINER_HIGHEST`
-      * `activeforeground=ON_SURFACE`
+      * `background=color_schema.SURFACE_CONTAINER`
+      * `foreground=color_schema.ON_SURFACE_VARIANT`
+      * `activebackground=color_schema.SURFACE_CONTAINER_HIGHEST`
+      * `activeforeground=color_schema.ON_SURFACE`
   * **Button**
-  * `background=PRIMARY_CONTAINER`
-  * `foreground=ON_PRIMARY_CONTAINER`
-  * `activebackground=PRIMARY_FIXED_DIM`
-  * `activeforeground=ON_PRIMARY_FIXED_VARIANT`
+  * `background=color_schema.PRIMARY_CONTAINER`
+  * `foreground=color_schema.ON_PRIMARY_CONTAINER`
+  * `activebackground=color_schema.PRIMARY_FIXED_DIM`
+  * `activeforeground=color_schema.ON_PRIMARY_FIXED_VARIANT`
 
 
 # Definición: ¿Qué es Tkinter?
