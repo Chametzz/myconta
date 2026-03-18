@@ -39,7 +39,8 @@ class AccountHubView(View):
             bg=color_schema.SURFACE_CONTAINER,
             font=("Arial", 24, "bold"),
             borderwidth=0,
-            activebackground=color_schema.SURFACE_CONTAINER_HIGH,
+            activebackground=color_schema.SURFACE_CONTAINER_HIGHEST,
+            activeforeground=color_schema.ON_SURFACE,
             command=self.add_account
         )
         boton_mas.pack(side="right", padx=10, pady=10)
@@ -51,7 +52,8 @@ class AccountHubView(View):
             bg=color_schema.SURFACE_CONTAINER,
             font=("Arial", 24),
             borderwidth=0,
-            activebackground=color_schema.SURFACE_CONTAINER_HIGH,
+            activebackground=color_schema.SURFACE_CONTAINER_HIGHEST,
+            activeforeground=color_schema.ON_SURFACE,
             command=self.settings
         )
         boton_settings.pack(side="right", pady=10)
@@ -63,6 +65,7 @@ class AccountHubView(View):
             bg=color_schema.PRIMARY_CONTAINER,
             fg=color_schema.ON_PRIMARY_CONTAINER,
             activebackground=color_schema.PRIMARY_FIXED_DIM,
+            activeforeground=color_schema.ON_PRIMARY_FIXED_VARIANT,
             width=12,
             height=6,
             font=("Arial", 12, "bold"),

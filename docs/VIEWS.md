@@ -1,6 +1,29 @@
 # Views
 Esta sección describe las vistas  ubicadas en `views/`.
 
+# Estilo de las vistas
+Las vistas siguen un diseño similar y para mantener la armonía de las mismas todas siguen este mismo estilo. 
+* **View**
+* `background=SURFACE`
+  * **Appbar**
+  * `background=SURFACE_CONTAINER`
+    * **Title**
+    * `font=('Arial', 16, 'bold')`
+    * `background=SURFACE_CONTAINER`
+    * `foreground=ON_SURFACE`
+    * **Actions**
+      * `font=('Arial', 24, 'bold')`
+      * `background=SURFACE_CONTAINER`
+      * `foreground=ON_SURFACE_VARIANT`
+      * `activebackground=SURFACE_CONTAINER_HIGHEST`
+      * `activeforeground=ON_SURFACE`
+  * **Button**
+  * `background=PRIMARY_CONTAINER`
+  * `foreground=ON_PRIMARY_CONTAINER`
+  * `activebackground=PRIMARY_FIXED_DIM`
+  * `activeforeground=ON_PRIMARY_FIXED_VARIANT`
+
+
 # Definición: ¿Qué es Tkinter?
 
 Tkinter (abreviatura de Tk interface) es el kit de herramientas de interfaz gráfica de usuario predeterminado de Python. Actúa como un "envoltorio" que permite a Python comunicarse con Tk, un sistema de ventanas que crea los elementos visuales que vemos en pantalla. Es la librería más utilizada para aplicaciones de escritorio sencillas debido a su ligereza y facilidad de uso.
