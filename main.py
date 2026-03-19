@@ -10,7 +10,7 @@ from app import App
 
 if __name__ == "__main__":
     while True:
-        option = 'N'#input("Quieres abrir el entorno de pruebas [Y/N] ").upper()
+        option = input("Quieres abrir el entorno de pruebas [Y/N] ").upper()
         if option == "Y":
             test_module_name = "test_enviroment"
             test_lib = importlib.util.find_spec(test_module_name)
