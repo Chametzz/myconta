@@ -7,7 +7,9 @@ from view_models.account_hub_view_model import AccountHubViewModel
 class App(tk.Tk):
     def __init__(self):
         super().__init__()
+        self.geometry("900x600")
         self.title("Myconta")
         self.root = Navigator(self)
         self.root.push(AccountHubView(self.root, view_model=AccountHubViewModel()))
+        self.pack_propagate(False)
         self.root.pack(fill="both", expand=True)

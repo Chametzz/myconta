@@ -40,6 +40,7 @@ class Navigator(Frame):
             self.stack[-1].pack_forget()
         
         # Mostrar la nueva vista
+        view.pack_propagate(False)
         view.pack(fill='both', expand=True)
         self.stack.append(view)
         
@@ -64,6 +65,7 @@ class Navigator(Frame):
             
             # Recuperar la vista anterior de la pila
             previous_view = self.stack[-1]
+            previous_view.pack_propagate(False)
             previous_view.pack(fill='both', expand=True)
             
             # Notificar que vuelve a estar activa
