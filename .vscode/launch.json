@@ -1,0 +1,28 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "🚀 Ejecutar Myconta",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/main.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "env": {
+                "APP_MODE": "PRODUCTION"
+            }
+        },
+        {
+            "name": "🧪 Ejecutar Test Environment",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/test_enviroment.py",
+            "console": "integratedTerminal",
+            "justMyCode": false,
+            "env": {
+                "APP_MODE": "DEBUG",
+                "PYTHONPATH": "${workspaceFolder}"
+            }
+        }
+    ]
+}
