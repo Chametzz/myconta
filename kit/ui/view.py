@@ -84,8 +84,3 @@ class View(Frame):
             changed (Callable[[str], bool]): Función que recibe el nombre de una propiedad y devuelve True si debe actualizarse el widget asociado.
         """
         pass
-
-
-class HomeView(View):
-    def __init__(self, master, **kwargs):
-        super().__init__(master, **kwargs)

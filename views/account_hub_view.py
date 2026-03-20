@@ -1,5 +1,5 @@
 from kit.ui.view import View
-from kit.color_schema import color_schema
+from services.color_schema import color_schema
 import tkinter as tk
 from tkinter import messagebox
 

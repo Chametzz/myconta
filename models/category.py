@@ -1,4 +1,6 @@
 import peewee as pw
+from kit.model_fields.enum_field import EnumField
+from kit.enums.category_type import CategoryType
 from services.database import db
 
 class Category(pw.Model):
@@ -16,7 +18,7 @@ class Category(pw.Model):
 
     id = pw.AutoField()
     name = pw.CharField(unique=True)
-    type = pw.CharField()
+    type = EnumField(enum_class=CategoryType, max_length=10)
  
     class Meta:
         database = db  # Vincula el modelo con la conexión a la base de datos

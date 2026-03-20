@@ -1,6 +1,6 @@
 import tkinter as tk
 from kit.ui.view import View
-from kit.color_schema import color_schema
+from services.color_schema import color_schema
 
 
 class CategoryHubView(View):

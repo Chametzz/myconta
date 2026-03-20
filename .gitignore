@@ -24,6 +24,8 @@ Thumbs.db
 
 # --- Configuración de VS Code ---
 .vscode/
+!.vscode/launch.json
+!.vscode/tasks.json
 
 # --- Variables de Entorno (Seguridad) ---
 .env
