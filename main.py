@@ -1,4 +1,4 @@
-from services.database import initialize_db
+from services.app_service import AppService
 from app import App
 
 #NOTE: Para usar el entorno de pruebas:
@@ -7,6 +7,6 @@ from app import App
 #3. El código de prueba debe ir en el __init__.
 
 if __name__ == "__main__":
-    initialize_db()
+    AppService()
     root = App()
     root.mainloop()

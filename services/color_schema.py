@@ -1,243 +1,228 @@
 from enum import Enum
 import winreg
+from typing import Optional
+from dataclasses import dataclass
 
-class ColorSchema():
+
+@dataclass
+class ColorSchema:
     """
     Representa un conjunto completo de colores basado en Material Design 3.
     Se utiliza para definir paletas tanto claras como oscuras.
     """
-    light_schema = None
-    dark_schema = None
+    # Primary
+    PRIMARY: str
+    ON_PRIMARY: str
+    PRIMARY_CONTAINER: str
+    ON_PRIMARY_CONTAINER: str
+    PRIMARY_FIXED: str
+    PRIMARY_FIXED_DIM: str
+    ON_PRIMARY_FIXED: str
+    ON_PRIMARY_FIXED_VARIANT: str
+    
+    # Secondary
+    SECONDARY: str
+    ON_SECONDARY: str
+    SECONDARY_CONTAINER: str
+    ON_SECONDARY_CONTAINER: str
+    SECONDARY_FIXED: str
+    SECONDARY_FIXED_DIM: str
+    ON_SECONDARY_FIXED: str
+    ON_SECONDARY_FIXED_VARIANT: str
+    
+    # Tertiary
+    TERTIARY: str
+    ON_TERTIARY: str
+    TERTIARY_CONTAINER: str
+    ON_TERTIARY_CONTAINER: str
+    TERTIARY_FIXED: str
+    TERTIARY_FIXED_DIM: str
+    ON_TERTIARY_FIXED: str
+    ON_TERTIARY_FIXED_VARIANT: str
+    
+    # Error
+    ERROR: str
+    ON_ERROR: str
+    ERROR_CONTAINER: str
+    ON_ERROR_CONTAINER: str
+    
+    # Surface
+    SURFACE: str
+    ON_SURFACE: str
+    SURFACE_DIM: str
+    SURFACE_BRIGHT: str
+    SURFACE_CONTAINER_LOWEST: str
+    SURFACE_CONTAINER_LOW: str
+    SURFACE_CONTAINER: str
+    SURFACE_CONTAINER_HIGH: str
+    SURFACE_CONTAINER_HIGHEST: str
+    ON_SURFACE_VARIANT: str
+    
+    # Utilities / Inverse
+    OUTLINE: str
+    OUTLINE_VARIANT: str
+    INVERSE_SURFACE: str
+    ON_INVERSE_SURFACE: str
+    INVERSE_PRIMARY: str
+    SHADOW: str
+    SCRIM: str
+    SURFACE_TINT: str
 
-    def __init__(
-        self,
-        primary,
-        on_primary,
-        primary_container,
-        on_primary_container,
-        primary_fixed,
-        primary_fixed_dim,
-        on_primary_fixed,
-        on_primary_fixed_variant,
-        secondary,
-        on_secondary,
-        secondary_container,
-        on_secondary_container,
-        secondary_fixed,
-        secondary_fixed_dim,
-        on_secondary_fixed,
-        on_secondary_fixed_variant,
-        tertiary,
-        on_tertiary,
-        tertiary_container,
-        on_tertiary_container,
-        tertiary_fixed,
-        tertiary_fixed_dim,
-        on_tertiary_fixed,
-        on_tertiary_fixed_variant,
-        error,
-        on_error,
-        error_container,
-        on_error_container,
-        surface,
-        on_surface,
-        surface_dim,
-        surface_bright,
-        surface_container_lowest,
-        surface_container_low,
-        surface_container,
-        surface_container_high,
-        surface_container_highest,
-        on_surface_variant,
-        outline,
-        outline_variant,
-        inverse_surface,
-        on_inverse_surface,
-        inverse_primary,
-        shadow,
-        scrim,
-        surface_tint,
-    ):
-        # Primary
-        self.PRIMARY = primary
-        self.ON_PRIMARY = on_primary
-        self.PRIMARY_CONTAINER = primary_container
-        self.ON_PRIMARY_CONTAINER = on_primary_container
-        self.PRIMARY_FIXED = primary_fixed
-        self.PRIMARY_FIXED_DIM = primary_fixed_dim
-        self.ON_PRIMARY_FIXED = on_primary_fixed
-        self.ON_PRIMARY_FIXED_VARIANT = on_primary_fixed_variant
-
-        # Secondary
-        self.SECONDARY = secondary
-        self.ON_SECONDARY = on_secondary
-        self.SECONDARY_CONTAINER = secondary_container
-        self.ON_SECONDARY_CONTAINER = on_secondary_container
-        self.SECONDARY_FIXED = secondary_fixed
-        self.SECONDARY_FIXED_DIM = secondary_fixed_dim
-        self.ON_SECONDARY_FIXED = on_secondary_fixed
-        self.ON_SECONDARY_FIXED_VARIANT = on_secondary_fixed_variant
-
-        # Tertiary
-        self.TERTIARY = tertiary
-        self.ON_TERTIARY = on_tertiary
-        self.TERTIARY_CONTAINER = tertiary_container
-        self.ON_TERTIARY_CONTAINER = on_tertiary_container
-        self.TERTIARY_FIXED = tertiary_fixed
-        self.TERTIARY_FIXED_DIM = tertiary_fixed_dim
-        self.ON_TERTIARY_FIXED = on_tertiary_fixed
-        self.ON_TERTIARY_FIXED_VARIANT = on_tertiary_fixed_variant
-
-        # Error
-        self.ERROR = error
-        self.ON_ERROR = on_error
-        self.ERROR_CONTAINER = error_container
-        self.ON_ERROR_CONTAINER = on_error_container
-
-        # Surface
-        self.SURFACE = surface
-        self.ON_SURFACE = on_surface
-        self.SURFACE_DIM = surface_dim
-        self.SURFACE_BRIGHT = surface_bright
-        self.SURFACE_CONTAINER_LOWEST = surface_container_lowest
-        self.SURFACE_CONTAINER_LOW = surface_container_low
-        self.SURFACE_CONTAINER = surface_container
-        self.SURFACE_CONTAINER_HIGH = surface_container_high
-        self.SURFACE_CONTAINER_HIGHEST = surface_container_highest
-        self.ON_SURFACE_VARIANT = on_surface_variant
-
-        # Utilities / Inverse
-        self.OUTLINE = outline
-        self.OUTLINE_VARIANT = outline_variant
-        self.INVERSE_SURFACE = inverse_surface
-        self.ON_INVERSE_SURFACE = on_inverse_surface
-        self.INVERSE_PRIMARY = inverse_primary
-        self.SHADOW = shadow
-        self.SCRIM = scrim
-        self.SURFACE_TINT = surface_tint
 
 class ThemeMode(Enum):
     LIGHT = 'light'
     DARK = 'dark'
     SYSTEM = 'system'
 
-light_schema = ColorSchema(
-    primary="#32AE60",
-    on_primary="#FFFFFF",
-    primary_container="#A6F4B1",
-    on_primary_container="#00210A",
-    primary_fixed="#A6F4B1",
-    primary_fixed_dim="#8BD797",
-    on_primary_fixed="#00210A",
-    on_primary_fixed_variant="#005221",
-    secondary="#526350",
-    on_secondary="#FFFFFF",
-    secondary_container="#D5E8CF",
-    on_secondary_container="#101F10",
-    secondary_fixed="#D5E8CF",
-    secondary_fixed_dim="#B9CCB4",
-    on_secondary_fixed="#101F10",
-    on_secondary_fixed_variant="#3B4B39",
-    tertiary="#39656B",
-    on_tertiary="#FFFFFF",
-    tertiary_container="#BCEBF2",
-    on_tertiary_container="#001F23",
-    tertiary_fixed="#BCEBF2",
-    tertiary_fixed_dim="#A1CED5",
-    on_tertiary_fixed="#001F23",
-    on_tertiary_fixed_variant="#1F4D53",
-    error="#BA1A1A",
-    on_error="#FFFFFF",
-    error_container="#FFDAD6",
-    on_error_container="#410002",
-    surface="#F7FBF2",
-    on_surface="#181D17",
-    surface_dim="#D8DCD3",
-    surface_bright="#F7FBF2",
-    surface_container_lowest="#FFFFFF",
-    surface_container_low="#F1F5EC",
-    surface_container="#EBF0E7",
-    surface_container_high="#E5EAE1",
-    surface_container_highest="#DFE4DB",
-    on_surface_variant="#424940",
-    outline="#72796F",
-    outline_variant="#C2C9BD",
-    inverse_surface="#2D322B",
-    on_inverse_surface="#EFF2E9",
-    inverse_primary="#8BD797",
-    shadow="#000000",
-    scrim="#000000",
-    surface_tint="#32AE60",
+
+LIGHT_SCHEMA = ColorSchema(
+    PRIMARY="#32AE60",
+    ON_PRIMARY="#FFFFFF",
+    PRIMARY_CONTAINER="#A6F4B1",
+    ON_PRIMARY_CONTAINER="#00210A",
+    PRIMARY_FIXED="#A6F4B1",
+    PRIMARY_FIXED_DIM="#8BD797",
+    ON_PRIMARY_FIXED="#00210A",
+    ON_PRIMARY_FIXED_VARIANT="#005221",
+    SECONDARY="#526350",
+    ON_SECONDARY="#FFFFFF",
+    SECONDARY_CONTAINER="#D5E8CF",
+    ON_SECONDARY_CONTAINER="#101F10",
+    SECONDARY_FIXED="#D5E8CF",
+    SECONDARY_FIXED_DIM="#B9CCB4",
+    ON_SECONDARY_FIXED="#101F10",
+    ON_SECONDARY_FIXED_VARIANT="#3B4B39",
+    TERTIARY="#39656B",
+    ON_TERTIARY="#FFFFFF",
+    TERTIARY_CONTAINER="#BCEBF2",
+    ON_TERTIARY_CONTAINER="#001F23",
+    TERTIARY_FIXED="#BCEBF2",
+    TERTIARY_FIXED_DIM="#A1CED5",
+    ON_TERTIARY_FIXED="#001F23",
+    ON_TERTIARY_FIXED_VARIANT="#1F4D53",
+    ERROR="#BA1A1A",
+    ON_ERROR="#FFFFFF",
+    ERROR_CONTAINER="#FFDAD6",
+    ON_ERROR_CONTAINER="#410002",
+    SURFACE="#F7FBF2",
+    ON_SURFACE="#181D17",
+    SURFACE_DIM="#D8DCD3",
+    SURFACE_BRIGHT="#F7FBF2",
+    SURFACE_CONTAINER_LOWEST="#FFFFFF",
+    SURFACE_CONTAINER_LOW="#F1F5EC",
+    SURFACE_CONTAINER="#EBF0E7",
+    SURFACE_CONTAINER_HIGH="#E5EAE1",
+    SURFACE_CONTAINER_HIGHEST="#DFE4DB",
+    ON_SURFACE_VARIANT="#424940",
+    OUTLINE="#72796F",
+    OUTLINE_VARIANT="#C2C9BD",
+    INVERSE_SURFACE="#2D322B",
+    ON_INVERSE_SURFACE="#EFF2E9",
+    INVERSE_PRIMARY="#8BD797",
+    SHADOW="#000000",
+    SCRIM="#000000",
+    SURFACE_TINT="#32AE60",
 )
 
-dark_schema = ColorSchema(
-    primary="#8BD797",
-    on_primary="#003914",
-    primary_container="#005221",
-    on_primary_container="#A6F4B1",
-    primary_fixed="#A6F4B1",
-    primary_fixed_dim="#8BD797",
-    on_primary_fixed="#00210A",
-    on_primary_fixed_variant="#005221",
-    secondary="#B9CCB4",
-    on_secondary="#253424",
-    secondary_container="#3B4B39",
-    on_secondary_container="#D5E8CF",
-    secondary_fixed="#D5E8CF",
-    secondary_fixed_dim="#B9CCB4",
-    on_secondary_fixed="#101F10",
-    on_secondary_fixed_variant="#3B4B39",
-    tertiary="#A1CED5",
-    on_tertiary="#00363C",
-    tertiary_container="#1F4D53",
-    on_tertiary_container="#BCEBF2",
-    tertiary_fixed="#BCEBF2",
-    tertiary_fixed_dim="#A1CED5",
-    on_tertiary_fixed="#001F23",
-    on_tertiary_fixed_variant="#1F4D53",
-    error="#FFB4AB",
-    on_error="#690005",
-    error_container="#93000A",
-    on_error_container="#FFDAD6",
-    surface="#101510",
-    on_surface="#E0E4DB",
-    surface_dim="#101510",
-    surface_bright="#363A34",
-    surface_container_lowest="#0B0F0B",
-    surface_container_low="#181D17",
-    surface_container="#1C211B",
-    surface_container_high="#272B25",
-    surface_container_highest="#31362F",
-    on_surface_variant="#C2C9BD",
-    outline="#8C9388",
-    outline_variant="#424940",
-    inverse_surface="#E0E4DB",
-    on_inverse_surface="#2D322B",
-    inverse_primary="#32AE60",
-    shadow="#000000",
-    scrim="#000000",
-    surface_tint="#8BD797",
+DARK_SCHEMA = ColorSchema(
+    PRIMARY="#8BD797",
+    ON_PRIMARY="#003914",
+    PRIMARY_CONTAINER="#005221",
+    ON_PRIMARY_CONTAINER="#A6F4B1",
+    PRIMARY_FIXED="#A6F4B1",
+    PRIMARY_FIXED_DIM="#8BD797",
+    ON_PRIMARY_FIXED="#00210A",
+    ON_PRIMARY_FIXED_VARIANT="#005221",
+    SECONDARY="#B9CCB4",
+    ON_SECONDARY="#253424",
+    SECONDARY_CONTAINER="#3B4B39",
+    ON_SECONDARY_CONTAINER="#D5E8CF",
+    SECONDARY_FIXED="#D5E8CF",
+    SECONDARY_FIXED_DIM="#B9CCB4",
+    ON_SECONDARY_FIXED="#101F10",
+    ON_SECONDARY_FIXED_VARIANT="#3B4B39",
+    TERTIARY="#A1CED5",
+    ON_TERTIARY="#00363C",
+    TERTIARY_CONTAINER="#1F4D53",
+    ON_TERTIARY_CONTAINER="#BCEBF2",
+    TERTIARY_FIXED="#BCEBF2",
+    TERTIARY_FIXED_DIM="#A1CED5",
+    ON_TERTIARY_FIXED="#001F23",
+    ON_TERTIARY_FIXED_VARIANT="#1F4D53",
+    ERROR="#FFB4AB",
+    ON_ERROR="#690005",
+    ERROR_CONTAINER="#93000A",
+    ON_ERROR_CONTAINER="#FFDAD6",
+    SURFACE="#101510",
+    ON_SURFACE="#E0E4DB",
+    SURFACE_DIM="#101510",
+    SURFACE_BRIGHT="#363A34",
+    SURFACE_CONTAINER_LOWEST="#0B0F0B",
+    SURFACE_CONTAINER_LOW="#181D17",
+    SURFACE_CONTAINER="#1C211B",
+    SURFACE_CONTAINER_HIGH="#272B25",
+    SURFACE_CONTAINER_HIGHEST="#31362F",
+    ON_SURFACE_VARIANT="#C2C9BD",
+    OUTLINE="#8C9388",
+    OUTLINE_VARIANT="#424940",
+    INVERSE_SURFACE="#E0E4DB",
+    ON_INVERSE_SURFACE="#2D322B",
+    INVERSE_PRIMARY="#32AE60",
+    SHADOW="#000000",
+    SCRIM="#000000",
+    SURFACE_TINT="#8BD797",
 )
 
-theme_mode = ThemeMode.DARK
 
-def get_color_schema():
-    global theme_mode, color_schema, light_schema, dark_schema
-    if theme_mode == ThemeMode.LIGHT:
-        return light_schema
-    elif theme_mode == ThemeMode.DARK:
-        return dark_schema
-    else:
-        try:
-            key = winreg.OpenKey(winreg.HKEY_CURRENT_USER, r"Software\Microsoft\Windows\CurrentVersion\Themes\Personalize")
-            is_light, _ = winreg.QueryValueEx(key, "AppsUseLightTheme")
-            return light_schema if is_light else dark_schema
-        except Exception as e:
-            print(e)
-            return dark_schema
+class _ColorSchemaManager:
+    
+    _instance: Optional['_ColorSchemaManager'] = None
+    _theme_mode: ThemeMode = ThemeMode.SYSTEM
+    
+    def __new__(cls):
+        if cls._instance is None:
+            cls._instance = super().__new__(cls)
+        return cls._instance
+    
+    @property
+    def theme_mode(self) -> ThemeMode:
+        return self._theme_mode
+    
+    @theme_mode.setter
+    def theme_mode(self, value: ThemeMode):
+        self._theme_mode = value
+    
+    def get_current_schema(self) -> ColorSchema:
+        if self._theme_mode == ThemeMode.LIGHT:
+            return LIGHT_SCHEMA
+        elif self._theme_mode == ThemeMode.DARK:
+            return DARK_SCHEMA
+        else: 
+            try:
+                key = winreg.OpenKey(
+                    winreg.HKEY_CURRENT_USER,
+                    r"Software\Microsoft\Windows\CurrentVersion\Themes\Personalize"
+                )
+                is_light, _ = winreg.QueryValueEx(key, "AppsUseLightTheme")
+                return LIGHT_SCHEMA if is_light else DARK_SCHEMA
+            except Exception as e:
+                print(f"Error al leer tema del sistema: {e}")
+                return DARK_SCHEMA
 
-color_schema : ColorSchema = get_color_schema()
+_manager = _ColorSchemaManager()
 
-def update_color_schema():
+def change_theme_mode(value: ThemeMode) -> None:
+    _manager.theme_mode = value
     global color_schema
-    color_schema = get_color_schema()
+    color_schema = _manager.get_current_schema()
+
+
+class _ColorSchemaProxy:
+    def __getattr__(self, name: str) -> str:
+        return getattr(_manager.get_current_schema(), name)
+    
+    def __getitem__(self, key: str) -> str:
+        return getattr(_manager.get_current_schema(), key)
+
+
+color_schema = _ColorSchemaProxy()
