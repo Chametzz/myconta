@@ -178,12 +178,26 @@ class _ColorSchemaManager:
     
     _instance: Optional['_ColorSchemaManager'] = None
     _theme_mode: ThemeMode = ThemeMode.SYSTEM
+    _listeners = []
     
     def __new__(cls):
         if cls._instance is None:
             cls._instance = super().__new__(cls)
         return cls._instance
     
+    def add_listener(self, callback):
+        if callback not in self._listeners:
+            self._listeners.append(callback)
+    
+    def remove_listener(self, callback):
+        if callback in self._listeners:
+            self._listeners.remove(callback)
+    
+    def _notify(self):
+        """Avisa a todas las vistas que el color_schema cambió."""
+        for callback in self._listeners:
+            # Llamamos al update de la vista pasando "color_schema"
+            callback("color_schema")
     @property
     def theme_mode(self) -> ThemeMode:
         return self._theme_mode
@@ -191,6 +205,7 @@ class _ColorSchemaManager:
     @theme_mode.setter
     def theme_mode(self, value: ThemeMode):
         self._theme_mode = value
+        self._notify()
     
     def get_current_schema(self) -> ColorSchema:
         if self._theme_mode == ThemeMode.LIGHT:
@@ -211,10 +226,19 @@ class _ColorSchemaManager:
 
 _manager = _ColorSchemaManager()
 
+def color_schema_add_listener(callback):
+    _manager.add_listener(callback)
+
+def color_schema_remove_listener(callback):
+    _manager.remove_listener(callback)
+
 def change_theme_mode(value: ThemeMode) -> None:
     _manager.theme_mode = value
-    global color_schema
-    color_schema = _manager.get_current_schema()
+
+#def change_theme_mode(value: ThemeMode) -> None:
+#    _manager.theme_mode = value
+#    global color_schema
+#    color_schema = _manager.get_current_schema()
 
 
 class _ColorSchemaProxy:
@@ -226,3 +250,4 @@ class _ColorSchemaProxy:
 
 
 color_schema = _ColorSchemaProxy()
+

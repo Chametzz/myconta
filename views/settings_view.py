@@ -135,8 +135,8 @@ class SettingsView(View):
     # BOTÓN REGRESAR
     # ===============================
     def regresar(self):
-        print("Regresando...")
-        self.master.destroy()
+        from kit.ui.navigator import Navigator
+        Navigator.of(self).pop()
 
     def on_enter(self):
         print("Entraste a Configuración")

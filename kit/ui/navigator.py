@@ -75,6 +75,13 @@ class Navigator(Frame):
     @classmethod
     def of(cls, context : Frame) -> 'Navigator':
         """
-        Obtiene el navegador del Frame dado
+        Busca hacia arriba en el árbol de widgets hasta encontrar 
+        la instancia del Navigator.
         """
-        return context.master
+        current = context
+        while current is not None:
+            if isinstance(current, cls):
+                return current
+            current = current.master
+            
+        raise LookupError(f"No se encontró Navigator en {context}")

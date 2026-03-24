@@ -1,3 +1,7 @@
+from typing import TypeVar, Type, Optional
+import tkinter as tk
+
+T = TypeVar("T", bound="ViewModel")
 class ViewModel:
     """
     Clase base para la lógica de negocio y el estado de la aplicación.
@@ -31,7 +35,28 @@ class ViewModel:
         
     def add_listener(self, callback):
         self._listeners.append(callback)
-    
+        
+    def remove_listener(self, callback):
+        if callback in self._listeners:
+            if callback in self._listeners:
+                self._listeners.remove(callback)
+                
     def notify(self, *args):
         for callback in self._listeners:
             callback(*args)
+    
+    @classmethod
+    def search(cls: Type[T], node: tk.Widget) -> Optional[T]:
+        """
+        Busca una instancia de este ViewModel subiendo por los 
+        nodos master de Tkinter.
+        """
+        current = node
+        while current:
+            if (hasattr(current, "vm") and isinstance(current.vm, cls)):
+                return current.vm
+            try:
+                current = current.master
+            except AttributeError:
+                break    
+        return None

@@ -9,7 +9,7 @@ class Dispatcher(Frame):
         super().__init__(master)
         self.index: int = 0
         self.builders: List[Callable[[], Frame]] = []
-        self.views = List[Optional[Frame]] = []
+        self.views: List[Optional[Frame]] = []
 
     def setup(self, builders: List[Callable[[], Frame]], initial_index=0):
         if not builders:

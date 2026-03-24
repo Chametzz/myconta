@@ -1,7 +1,7 @@
 from tkinter import Frame
 from kit.view_model import ViewModel
 from typing import Callable
-
+from services.color_schema import color_schema, color_schema_add_listener, color_schema_remove_listener
 
 class View(Frame):
     """
@@ -53,7 +53,15 @@ class View(Frame):
         if self.vm is not None:
             # Se suscribe el método update para que la vista pueda reaccionar al viewmodel.
             self.vm.add_listener(self.update)
+        # Suscripción automática al esquema de colores
+        color_schema_add_listener(self.update)
 
+    def on_enter(self):
+        pass
+    
+    def on_exit(self):
+        pass
+    
     def update(self, *args):
         """
         Prepara la lógica con la intención de actualizar los componentes gráficos de una vista.
@@ -84,3 +92,10 @@ class View(Frame):
             changed (Callable[[str], bool]): Función que recibe el nombre de una propiedad y devuelve True si debe actualizarse el widget asociado.
         """
         pass
+    
+    def destroy(self):
+        # Limpiar suscripciones
+        color_schema_remove_listener(self.update)
+        if self.vm:
+            self.vm.remove_listener(self.update)
+        super().destroy()
