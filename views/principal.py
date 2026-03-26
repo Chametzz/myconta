@@ -10,6 +10,10 @@ try:
     from views.analysis import Analysis
 except ModuleNotFoundError:
     from analysis import Analysis
+try:
+    from views.Incomes_view import IncomeView
+except ModuleNotFoundError:
+    from views.Incomes_view import IncomeView
 
 
 class Principal(tk.Frame):
@@ -37,7 +41,7 @@ class Principal(tk.Frame):
 
         destinations = [
             (tk.Frame, "Principal", 0),
-            (tk.Frame, "Ingresos", 1),
+            (IncomeView, "Ingresos", 1),
             (tk.Frame, "Gastos", 2),
             (Analysis, "Análisis", 3),
             (MyAccount, "Mi cuenta", 4),
