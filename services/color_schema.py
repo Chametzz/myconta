@@ -240,7 +240,6 @@ def change_theme_mode(value: ThemeMode) -> None:
 #    global color_schema
 #    color_schema = _manager.get_current_schema()
 
-
 class _ColorSchemaProxy:
     def __getattr__(self, name: str) -> str:
         return getattr(_manager.get_current_schema(), name)

@@ -120,7 +120,7 @@ class SettingsView(View):
         for widget in self.container.winfo_children():
             try:
                 widget.config(bg=self.bg_color, fg=self.fg_color)
-            except:
+            except:  # noqa: E722
                 pass
 
     # ===============================

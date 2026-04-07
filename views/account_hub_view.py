@@ -45,7 +45,7 @@ class AccountHubView(View):
         self.create_account("Cuenta 3", 0, 2)
         self.create_account("Cuenta 4", 0, 3)
 
-        self.update("color_schema")
+        self.update()
 
     def create_account(self, text, row, column):
         boton = tk.Button(

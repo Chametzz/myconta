@@ -1,0 +1,1 @@
+INSERT INTO transaction (account_id, category_id, amount, description, date) VALUES (1, 3, -150.00, 'Cena con amigos', '2026-03-26 20:00:00');​

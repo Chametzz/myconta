@@ -2,7 +2,8 @@ import peewee as pw
 from kit.enums.currency import Currency
 from kit.model_fields.enum_field import EnumField
 from services.database import db
-
+from peewee import fn
+from decimal import Decimal
 
 class Account(pw.Model):
     """
@@ -23,6 +24,32 @@ class Account(pw.Model):
     name = pw.CharField()
     balance = pw.DecimalField(max_digits=20, decimal_places=2)
     currency = EnumField(Currency, max_length=10)
-
+    
     class Meta:
         database = db
+
+    def get_monthly_total_income(self, month: int, year: int):
+        from models.transaction import Transaction
+        query = (self.transactions
+                 .select(fn.SUM(Transaction.amount))
+                 .where(
+                     (Transaction.amount > 0) &
+                     (fn.strftime('%m', Transaction.date) == f"{month:02d}") &
+                     (fn.strftime('%Y', Transaction.date) == str(year))
+                 )
+                 .scalar()) # Retorna directamente el valor numérico (o None)
+
+        return Decimal(query or 0).quantize(Decimal("0.00"))
+    
+    def get_monthly_total_expense(self, month: int, year: int):
+        from models.transaction import Transaction
+        query = (self.transactions
+                 .select(fn.SUM(Transaction.amount))
+                 .where(
+                     (Transaction.amount < 0) &
+                     (fn.strftime('%m', Transaction.date) == f"{month:02d}") &
+                     (fn.strftime('%Y', Transaction.date) == str(year))
+                 )
+                 .scalar()) # Retorna directamente el valor numérico (o None)
+
+        return Decimal(query or 0).quantize(Decimal("0.00"))

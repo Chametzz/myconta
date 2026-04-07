@@ -39,6 +39,7 @@ class AccountDashboardView(View):
         self.update()
 
     def on_update(self, changed):
+        
         if changed("account.name"):
             self.title.config(text=self.vm.account.name)
 

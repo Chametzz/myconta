@@ -32,3 +32,6 @@ Thumbs.db
 
 # --- Entorno de pruebas ---
 test_enviroment.py
+
+# --- Del app ---
+app_config.json
