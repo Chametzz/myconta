@@ -1,15 +1,24 @@
 from kit.view_model import ViewModel
+from kit.enums.currency import Currency
 from models.account import Account
+import copy
+
+
 class AccountEditorViewModel(ViewModel):
-    account = Account(name = "", balance = 0,currency = "mxn")
-    def __init__(self, account=None):
+    def __init__(self, account: Account = None):
         super().__init__()
         if account is not None:
-            self.account = account
+            self.account = copy.deepcopy(account)
+        else:
+            self.account = Account()
+        self.currency_options = [c.name for c in Currency]
+            
 
-    def change_account_name(self, value):
-        pass
-    def change_account_currency(self, value):
-        pass
+    def change_account_name(self, value: str):
+        self.account.name = value
+
+    def change_account_currency(self, value: Currency):
+        self.account.currency = value
+
     def save_account(self):
-        print('caca')
+        self.account.save()

@@ -14,6 +14,7 @@ class Category(pw.Model):
     Attributos:
         id (AutoField): Clave primaria única. Identificador autoincremental.
         name (CharField): Nombre de la categoría. Debe ser único.
+        type (EnumField): Tipo de la categoría, para saber a que tipo de transacción clasifica
     """
 
     id = pw.AutoField()
