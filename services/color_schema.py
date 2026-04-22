@@ -1,6 +1,6 @@
 from enum import Enum
 import winreg
-from typing import Optional
+from typing import Optional, cast
 from dataclasses import dataclass
 
 
@@ -248,5 +248,5 @@ class _ColorSchemaProxy:
         return getattr(_manager.get_current_schema(), key)
 
 
-color_schema = _ColorSchemaProxy()
+color_schema = cast(ColorSchema, _ColorSchemaProxy())
 

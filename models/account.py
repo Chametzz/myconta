@@ -21,10 +21,10 @@ class Account(pw.Model):
     """
 
     id = pw.AutoField()
-    name = pw.CharField()
-    balance = pw.DecimalField(max_digits=20, decimal_places=2)
-    currency = EnumField(Currency, max_length=10)
-    
+    name = pw.CharField(default="")
+    balance = pw.DecimalField(max_digits=20, decimal_places=2, default=0.00)
+    currency = EnumField(Currency, max_length=10, default=Currency.USD)
+
     class Meta:
         database = db
 

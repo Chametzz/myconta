@@ -1,7 +1,7 @@
 from tkinter import Frame
 from kit.view_model import ViewModel
 from typing import Callable
-from services.color_schema import color_schema, color_schema_add_listener, color_schema_remove_listener
+from services.color_schema import color_schema_add_listener, color_schema_remove_listener
 
 class View(Frame):
     """
