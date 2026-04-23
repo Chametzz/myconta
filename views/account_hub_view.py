@@ -6,7 +6,7 @@ from kit.ui.scrollable_wrap import ScrollableWrap
 from view_models.account_dashboard_view_model import AccountDashboardViewModel
 from views.account_dashboard_view import AccountDashboardView
 from models.account import Account
-
+import traceback
 
 class AccountHubView(View):
     vm: AccountHubViewModel
@@ -108,8 +108,9 @@ class AccountHubView(View):
                     self.master, AccountDashboardViewModel(account=account)
                 )
             )
-        except:  # noqa: E722
-            pass
+        except Exception as e:
+            print(e)
+            traceback.print_exc()
 
     def go_to_add_account(self):
         from kit.ui.navigator import Navigator

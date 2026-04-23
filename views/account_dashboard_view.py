@@ -4,6 +4,7 @@ import tkinter as tk
 from kit.ui.dispatcher import Dispatcher
 from services.color_schema import color_schema
 from views.account_home_view import AccountHomeView
+from view_models.account_home_view_model import AccountHomeViewModel
 
 class AccountDashboardView(View):
     vm: AccountDashboardViewModel
@@ -15,9 +16,8 @@ class AccountDashboardView(View):
         self.body = Dispatcher(self)
 
         self.title = tk.Label(self.side_bar, font=("Arial", 24, "bold"), padx=10, pady=10)
-
         self.navs = [
-            ("Inicio", lambda: AccountHomeView(self.body)),
+            ("Inicio", lambda: AccountHomeView(self.body, view_model=AccountHomeViewModel(self.vm.account))),
             ("Ingresos", lambda: tk.Frame(self.body)),
             ("Gastos", lambda: tk.Frame(self.body)),
             ("Análisis", lambda: tk.Frame(self.body)),
@@ -40,6 +40,7 @@ class AccountDashboardView(View):
 
         self.side_bar.pack(side=tk.LEFT, fill=tk.Y)
         self.title.pack()
+        
         for nb in self.nav_buttons:
             nb.config(font=("Arial", 16, "bold"))
             nb.pack(fill=tk.X, padx=5, pady=2)
