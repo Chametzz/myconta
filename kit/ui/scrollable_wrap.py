@@ -55,7 +55,8 @@ class ScrollableWrap(tk.Frame):
         """Reubica los hijos en un grid dinámico según el ancho disponible."""
         self.update_idletasks()
         width = self.canvas.winfo_width()
-        if width <= 1: return
+        if width <= 1: 
+            return
         
         # Ajusta column_width según el tamaño de tus cards (ancho + padding)
         column_width = 160 
